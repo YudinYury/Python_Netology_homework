@@ -34,10 +34,6 @@ def get_shop_list_by_dishes(dishes,person_count):
     for dish in dishes:
         # print('dish = ', dish)
         for ing in cookbook[dish]:
-            # print(ing['name'])
-            # print(ing['quantity'])
-            # shop_l[ing['name']]+=ing['quantity']*person_count
-            # разворачиваю, чтобы убрать индексы
 
             # name=ing['name'] # мое решение
             # qua=ing['quantity']*person_count
@@ -46,11 +42,11 @@ def get_shop_list_by_dishes(dishes,person_count):
             # else:
             #     shop_l[name] = qua # если нет, то вношу через присваивание нового
 
-            new_shop_l_item=dict(ing)  # это решение преподавателя
-            new_shop_l_item['quantity']*=person_count
+            new_shop_l_item=dict(ing)  # это решение преподавателя, копируем инградиент
+            new_shop_l_item['quantity']*=person_count # количество инградиента по количеству человек
             shop_l[new_shop_l_item['name']]=new_shop_l_item
-            if new_shop_l_item['name'] not in shop_l:
-                shop_l[new_shop_l_item['name']]=new_shop_l_item
+            if new_shop_l_item['name'] not in shop_l: # еще нет инградиента ?
+                shop_l[new_shop_l_item['name']]=new_shop_l_item # добавляем инградиент (его имя)
             else:
                 shop_l[new_shop_l_item['name']]['quantity'] += new_shop_l_item['quantity']
     return shop_l
