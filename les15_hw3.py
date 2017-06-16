@@ -6,24 +6,6 @@
 - чтобы отрабатывалась ситуация с полными тезками отличниками
 - не должно быть дублирования кода (и цикла) - использовать одну функцию при разнице в одном параментре в данных
 '''
-#TODO 1:
-# среднюю оценку за домашние задания и за экзамен по всем группе в следующем виде:
-#         Средняя оценка за домашние задания по группе: X
-#         Средняя оценка за экзамен: Y
-# где X и Y - вычисляемые значения;
-
-#TODO 2:
-# среднеюю оценку за домашние задания и за экзамен по группе в разрезе: а)пола б)наличия опыта в виде:
-#         Средняя оценка за домашние задания у мужчин: A
-#         Средняя оценка за экзамен у мужчин: B
-#         Средняя оценка за домашние задания у женщин: C
-#         Средняя оценка за экзамен у женщин: D
-#
-#         Средняя оценка за домашние задания у студентов с опытом: E
-#         Средняя оценка за экзамен у студентов с опытом: F
-#         Средняя оценка за домашние задания у студентов без опыта: G
-#         Средняя оценка за экзамен у студентов без опыта: H
-# где A, B, C, D, E, F, G, H - вычисляемые значения;
 
 #TODO 3:
 # определять лучшего студента, у которого будет максимальный балл по формуле 0.6 * его средняя оценка за домашние задания + 0.4 * оценка за экзамен в виде:
@@ -33,9 +15,6 @@
 # если студентов несколько, где S - имя/имена студентов, Z - вычисляемое значение.
 # Студентов должно быть не менее 6.
 # Код должен быть грамотно декомпозирован (максимально используйте функции).
-
-import copy
-import math
 
 group = [
     {'name':'Tony',  'family':'Moore', 'gender':'m', 'experience':False, 'homework':[9,9,10,10,9], 'exam':9},
@@ -49,43 +28,54 @@ group = [
     {'name':'Juri',  'family':'Judi', 'gender':'m',  'experience':False, 'homework': [8,10,10,9,10], 'exam':10},
 ]
 #############################################################################################################
-def get_exam_average_rating(gr):
-    # print('get_exam_average_rating')
-    aver_exam=0
-    summ_exam=0
+def get_aver_homework(pers):
+    aver_hw=0
+    summ_hw=0
     rt=0
-    for person in gr:
-        # print(person)
-        summ_exam+=int(person['exam'])
+    for i in pers['homework']:
+        summ_hw+=int(i)
         rt += 1
-    aver_exam=summ_exam/rt
-    # print('rates=', rt, '   summ=', summ_exam,'   aver=', aver_exam)
-    return aver_exam
+
+    aver_hw=summ_hw/rt
+    # print('rates=', rt, '   summ=', summ_hw,'   aver=', aver_hw)
+    return aver_hw
 #############################################################################################################
-def get_group_average_rating(gr):
-    # print('get_group_average_rating')
-    aver_rt=0
-    sum_rt=0
-    rt=0 # буду считать количество оценок
+def get_integral_grad(persn):
+    grad=float(0)
+    grad=round(0.6*get_aver_homework(persn)+0.4*int(persn['exam']),2)
+    # print(persn['name'], ' ', grad)
+    return grad
+#############################################################################################################
+def get_best_stud (gr):
+    best_students= [float(0)]
+    new_integral_grad=float(0)
     for person in gr:
+        new_integral_grad=get_integral_grad(person)
+        # print(type(new_integral_grad), 'new integral_grad=', new_integral_grad)
+        # print('best_students = ', best_students)
         # print(person)
-        for i in person['homework']:
-            sum_rt+=int(i)
-            rt += 1
-        # print(rt)
+        if new_integral_grad > best_students[0]:
+            best_students.clear()
+            best_students.append(new_integral_grad)
+            best_students.append(person['name'] + ' '+ person['family'])
+        elif new_integral_grad == best_students[0]:
+            best_students.append(person['name'] + ' '+ person['family'])
 
-    aver_rt=sum_rt/rt
-    # print('rates=', rt, '   summ=', sum_rt,'   aver=', aver_rt)
-    return aver_rt
-
+    return best_students
 #############################################################################################################
 
 def main():
-    av_rt=get_group_average_rating(group)
-    print('Средняя оценка за домашние задания по группе: {0}'.format(av_rt))
-    ex_rt=get_exam_average_rating(group)
-    print('Средняя оценка за экзамен: {0}'.format(ex_rt))
-
+    best_list=[]
+    quantity=0
+    best_list=get_best_stud(group)
+    quantity=len(best_list)
+    if quantity == 2:
+        print('Лучший студент: {0} с интегральной оценкой {1}'.format(best_list[1], best_list[0]))
+    else:
+        print('Лучшие студенты:')
+        for i in best_list[1::]:
+            print(i)
+        print('с интегральной оценкой {0}'.format(best_list[0]))
 
 #############################################################################################################
 

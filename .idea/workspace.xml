@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les15_hw2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les15_hw3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/les15_hw1.py" afterPath="$PROJECT_DIR$/les15_hw1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/les15_hw2.py" afterPath="$PROJECT_DIR$/les15_hw2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,28 +53,41 @@
       <file leaf-file-name="les15_hw1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/les15_hw1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="87" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="714">
+              <caret line="43" column="89" lean-forward="false" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
               <folding>
                 <element signature="e#1902#1913#0" expanded="true" />
-                <element signature="e#3524#3886#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="les15_hw2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="les15_hw2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/les15_hw2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1253">
-              <caret line="192" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="38" column="89" lean-forward="false" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
               <folding>
-                <element signature="e#3116#3348#0" expanded="false" />
-                <element signature="e#3610#4434#0" expanded="false" />
-                <element signature="e#4584#4882#0" expanded="false" />
-                <element signature="e#5057#6132#0" expanded="false" />
-                <element signature="e#6282#6590#0" expanded="false" />
-                <element signature="e#6718#6729#0" expanded="false" />
+                <element signature="e#3115#3347#0" expanded="false" />
+                <element signature="e#3609#4433#0" expanded="false" />
+                <element signature="e#4583#4881#0" expanded="false" />
+                <element signature="e#5056#6131#0" expanded="false" />
+                <element signature="e#6281#6589#0" expanded="false" />
+                <element signature="e#6717#6728#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="les15_hw3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/les15_hw3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#2187#2400#0" expanded="false" />
+                <element signature="e#2545#2682#0" expanded="false" />
+                <element signature="e#2821#3467#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -88,8 +103,9 @@
       <list>
         <option value="$PROJECT_DIR$/les14_hw12.py" />
         <option value="$PROJECT_DIR$/less_1_5_classwork.py" />
-        <option value="$PROJECT_DIR$/les15_hw1.py" />
         <option value="$PROJECT_DIR$/les15_hw2.py" />
+        <option value="$PROJECT_DIR$/les15_hw1.py" />
+        <option value="$PROJECT_DIR$/les15_hw3.py" />
       </list>
     </option>
   </component>
@@ -114,8 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,6 +144,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.les15_hw2">
+  <component name="RunManager" selected="Python.les15_hw3">
     <configuration default="false" name="les14_hw12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,6 +241,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="les15_hw3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_netology_homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/les15_hw3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,18 +323,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.les14_hw12" />
       <item index="1" class="java.lang.String" itemvalue="Python.less_1_5_classwork" />
       <item index="2" class="java.lang.String" itemvalue="Python.les15_hw1" />
       <item index="3" class="java.lang.String" itemvalue="Python.les15_hw2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.les15_hw3" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.les15_hw2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.les15_hw1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.less_1_5_classwork" />
-        <item index="3" class="java.lang.String" itemvalue="Python.les14_hw12" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.les15_hw3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.les15_hw2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.les15_hw1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.less_1_5_classwork" />
+        <item index="4" class="java.lang.String" itemvalue="Python.les14_hw12" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497430066758</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson 1.5 homework TODO_2">
+      <created>1497606582457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1497606582457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -349,7 +392,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0863836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35962147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35962147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -373,7 +416,8 @@
     <MESSAGE value="Have done homework." />
     <MESSAGE value="lesson 1.5 classwork" />
     <MESSAGE value="lesson 1.5 homework TODO_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 1.5 homework TODO_1" />
+    <MESSAGE value="lesson 1.5 homework TODO_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1.5 homework TODO_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,6 +426,72 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/les14_hw12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="252" column="34" lean-forward="false" selection-start-line="252" selection-start-column="22" selection-end-line="252" selection-end-column="34" />
+          <folding>
+            <element signature="e#1091#1102#0" expanded="true" />
+            <element signature="e#1700#1715#0" expanded="false" />
+            <element signature="e#2823#2955#0" expanded="false" />
+            <element signature="e#3096#3503#0" expanded="false" />
+            <element signature="e#3721#4916#0" expanded="false" />
+            <element signature="e#7753#8296#0" expanded="false" />
+            <element signature="e#8490#8723#0" expanded="false" />
+            <element signature="e#8923#9176#0" expanded="false" />
+            <element signature="e#9378#9771#0" expanded="false" />
+            <element signature="e#13399#13460#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_1_5_classwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#198#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/les15_hw1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="89" lean-forward="false" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
+          <folding>
+            <element signature="e#1902#1913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/les15_hw2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="38" column="89" lean-forward="false" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
+          <folding>
+            <element signature="e#3115#3347#0" expanded="false" />
+            <element signature="e#3609#4433#0" expanded="false" />
+            <element signature="e#4583#4881#0" expanded="false" />
+            <element signature="e#5056#6131#0" expanded="false" />
+            <element signature="e#6281#6589#0" expanded="false" />
+            <element signature="e#6717#6728#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/les15_hw3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#2187#2400#0" expanded="false" />
+            <element signature="e#2545#2682#0" expanded="false" />
+            <element signature="e#2821#3467#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/les14_hw12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4284">
@@ -417,7 +527,6 @@
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="e#1902#1913#0" expanded="true" />
-            <element signature="e#3524#3886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -427,12 +536,12 @@
         <state relative-caret-position="1326">
           <caret line="104" column="15" lean-forward="false" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
           <folding>
-            <element signature="e#3116#3348#0" expanded="false" />
-            <element signature="e#3610#4434#0" expanded="false" />
-            <element signature="e#4584#4882#0" expanded="false" />
-            <element signature="e#5057#6132#0" expanded="false" />
-            <element signature="e#6282#6590#0" expanded="false" />
-            <element signature="e#6718#6729#0" expanded="false" />
+            <element signature="e#3115#3347#0" expanded="false" />
+            <element signature="e#3609#4433#0" expanded="false" />
+            <element signature="e#4583#4881#0" expanded="false" />
+            <element signature="e#5056#6131#0" expanded="false" />
+            <element signature="e#6281#6589#0" expanded="false" />
+            <element signature="e#6717#6728#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -472,7 +581,6 @@
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="e#1902#1913#0" expanded="true" />
-            <element signature="e#3524#3886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -482,12 +590,12 @@
         <state relative-caret-position="1326">
           <caret line="104" column="15" lean-forward="true" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
           <folding>
-            <element signature="e#3116#3348#0" expanded="false" />
-            <element signature="e#3610#4434#0" expanded="false" />
-            <element signature="e#4584#4882#0" expanded="false" />
-            <element signature="e#5057#6132#0" expanded="false" />
-            <element signature="e#6282#6590#0" expanded="false" />
-            <element signature="e#6718#6729#0" expanded="false" />
+            <element signature="e#3115#3347#0" expanded="false" />
+            <element signature="e#3609#4433#0" expanded="false" />
+            <element signature="e#4583#4881#0" expanded="false" />
+            <element signature="e#5056#6131#0" expanded="false" />
+            <element signature="e#6281#6589#0" expanded="false" />
+            <element signature="e#6717#6728#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -527,7 +635,6 @@
           <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding>
             <element signature="e#1902#1913#0" expanded="true" />
-            <element signature="e#3524#3886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -634,26 +741,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/les15_hw1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state relative-caret-position="714">
+          <caret line="43" column="89" lean-forward="false" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
           <folding>
             <element signature="e#1902#1913#0" expanded="true" />
-            <element signature="e#3524#3886#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/les15_hw2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1253">
-          <caret line="192" column="0" lean-forward="true" selection-start-line="189" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="38" column="89" lean-forward="false" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
           <folding>
-            <element signature="e#3116#3348#0" expanded="false" />
-            <element signature="e#3610#4434#0" expanded="false" />
-            <element signature="e#4584#4882#0" expanded="false" />
-            <element signature="e#5057#6132#0" expanded="false" />
-            <element signature="e#6282#6590#0" expanded="false" />
-            <element signature="e#6718#6729#0" expanded="false" />
+            <element signature="e#3115#3347#0" expanded="false" />
+            <element signature="e#3609#4433#0" expanded="false" />
+            <element signature="e#4583#4881#0" expanded="false" />
+            <element signature="e#5056#6131#0" expanded="false" />
+            <element signature="e#6281#6589#0" expanded="false" />
+            <element signature="e#6717#6728#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/les15_hw3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#2187#2400#0" expanded="false" />
+            <element signature="e#2545#2682#0" expanded="false" />
+            <element signature="e#2821#3467#0" expanded="false" />
           </folding>
         </state>
       </provider>

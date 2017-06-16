@@ -36,7 +36,7 @@ group = [
     {'name':'Tony',  'family':'Moore', 'gender':'m', 'experience':False, 'homework':[9,9,10,10,9], 'exam':9},
     {'name':'Kevin', 'family':'Brown', 'gender':'m', 'experience':False, 'homework': [6,7,8,9,10], 'exam':9},
     {'name':'Rayan', 'family':'Evans', 'gender':'m', 'experience':False, 'homework': [7,7,6,9,8], 'exam':8},
-    {'name':'Alex',  'family':'Wilson', 'gender':'f','experience':True, 'homework': [10,10,9,10,10], 'exam':10},
+    {'name':'Alex',  'family':'Wilson', 'gender':'f','experience':True, 'homework': [10,8,9,10,10], 'exam':10},
     {'name':'Mary',  'family':'Hall', 'gender':'f',  'experience':False, 'homework': [6,5,6,8,7], 'exam':7},
     {'name':'Juri',  'family':'Judi', 'gender':'m',  'experience':True, 'homework': [10,9,10,8,10], 'exam':10},
     {'name':'Aaron', 'family':'Harris', 'gender':'m','experience':False, 'homework': [6,5,6,5,7], 'exam':6},
