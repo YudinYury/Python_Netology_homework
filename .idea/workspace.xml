@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les16_hw.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les16_hw_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les16_hw_2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -374,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497805712324</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson 1.6 homework, TODO 1&amp;2">
+      <created>1497872642151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1497872642151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,7 +416,8 @@
     <MESSAGE value="lesson 1.5 homework TODO_2" />
     <MESSAGE value="lesson 1.5 homework TODO_3" />
     <MESSAGE value="lesson 1.6 classwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 1.6 classwork" />
+    <MESSAGE value="lesson 1.6 homework, TODO 1&amp;2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1.6 homework, TODO 1&amp;2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
