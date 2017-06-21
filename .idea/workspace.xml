@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les21_hw1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les21_hw3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/les16_hw.py" afterPath="$PROJECT_DIR$/les16_hw.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less_1_5_classwork.py" afterPath="$PROJECT_DIR$/less_1_5_classwork.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/les21_hw1.py" afterPath="$PROJECT_DIR$/les21_hw1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,16 +40,16 @@
       <file leaf-file-name="les21_hw1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/les21_hw1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+            <state relative-caret-position="-623">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2467#1" expanded="false" />
                 <element signature="e#2469#2477#0" expanded="false" />
-                <element signature="e#3502#4892#0" expanded="false" />
-                <element signature="e#5066#5571#0" expanded="false" />
-                <element signature="e#5718#5876#0" expanded="false" />
-                <element signature="e#6023#6034#0" expanded="false" />
-                <element signature="e#6177#6701#0" expanded="false" />
+                <element signature="e#3558#4948#0" expanded="false" />
+                <element signature="e#5122#5627#0" expanded="false" />
+                <element signature="e#5774#5932#0" expanded="false" />
+                <element signature="e#6079#6090#0" expanded="false" />
+                <element signature="e#6233#6757#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -418,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497956780900</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lesson_2_1 homework «Открытие и чтение файла, запись в файл»">
+      <created>1498056428114</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498056428114</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -467,7 +471,8 @@
     <MESSAGE value="lesson 1.6 classwork" />
     <MESSAGE value="lesson 1.6 homework, TODO 1&amp;2" />
     <MESSAGE value="lesson 2.1 classwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 2.1 classwork" />
+    <MESSAGE value="lesson_2_1 homework «Открытие и чтение файла, запись в файл»" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_2_1 homework «Открытие и чтение файла, запись в файл»" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,6 +787,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-963">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,16 +841,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/les21_hw1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+        <state relative-caret-position="-623">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="e#0#2467#1" expanded="false" />
             <element signature="e#2469#2477#0" expanded="false" />
-            <element signature="e#3502#4892#0" expanded="false" />
-            <element signature="e#5066#5571#0" expanded="false" />
-            <element signature="e#5718#5876#0" expanded="false" />
-            <element signature="e#6023#6034#0" expanded="false" />
-            <element signature="e#6177#6701#0" expanded="false" />
+            <element signature="e#3558#4948#0" expanded="false" />
+            <element signature="e#5122#5627#0" expanded="false" />
+            <element signature="e#5774#5932#0" expanded="false" />
+            <element signature="e#6079#6090#0" expanded="false" />
+            <element signature="e#6233#6757#0" expanded="false" />
           </folding>
         </state>
       </provider>
