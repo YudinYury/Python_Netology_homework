@@ -29,11 +29,11 @@ cookbook = {
 
 ##################################################################################################
 # обработать список блюд и получить инградиенты
-def get_shop_list_by_dishes(dishes,person_count):
+def get_shop_list_by_dishes(ck_book, dishes,person_count):
     shop_l={}
     for dish in dishes:
         # print('dish = ', dish)
-        for ing in cookbook[dish]:
+        for ing in ck_book[dish]:
 
             # name=ing['name'] # мое решение
             # qua=ing['quantity']*person_count
@@ -63,7 +63,7 @@ def main():
     dishes=input('Введите блюда в расчете на одного человека (через запятую): ').lower().split(', ')
     print(dishes)
     person_count = int(input('Введите количество человек: '))
-    shop_list=get_shop_list_by_dishes(dishes,person_count)
+    shop_list=get_shop_list_by_dishes(cookbook,dishes,person_count)
     print_shop_list(shop_list)
 #################################################################################################
 
