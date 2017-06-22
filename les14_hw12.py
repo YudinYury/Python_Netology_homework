@@ -39,28 +39,6 @@ directories = {
         '2': ['10006'],
         '3': []
       }
-# countries = {
-#     'Tailand': {'sea':True,
-#                 'shengen': False,
-#                 'aver_temp': 30,
-#                 'currensy_rate': 1.8},
-#     'Hungary': {'sea': False,
-#                 'shengen': True,
-#                 'aver_temp': 10,
-#                 'currensy_rate': 0.3},
-#     'Germany': {'sea': True,
-#                 'shengen': True,
-#                 'aver_temp': 5,
-#                 'currensy_rate': 80},
-#     'Japan': {'sea': True,
-#                 'shengen': False,
-#                 'aver_temp': 21,
-#                 'currensy_rate': 0.61},
-#     'Russia': {'sea': True,
-#               'shengen': False,
-#               'aver_temp': 6,
-#               'currensy_rate': 1}
-# }
 
 def people_cmd(doc_lst):  # have done
     print('Pls enter document number')
@@ -95,6 +73,9 @@ def shelf_cmd(doc_lst):  # have done
     print('Found {0} Directories'.format(s))
     return 0
 ##################################################################################################
+# def add_cmd(doc_lst, dir_dict):
+#  a – add – команда, которая добавит новый документ в каталог и в перечень полок,
+# спросив его номер, тип, имя владельца и номер полки, на котором он будет храниться.
 def add_cmd(doc_lst, dir_dict): # a – add – команда, которая добавит новый документ в каталог и в перечень полок,
     # спросив его номер, тип, имя владельца и номер полки, на котором он будет храниться.
     new_doc=list()
@@ -137,10 +118,10 @@ def add_cmd(doc_lst, dir_dict): # a – add – команда, которая �
 
     return doc_lst.append(new_doc)
 ##################################################################################################
+# def add_shelf_cmd(dir_dict): # have done   as – add shelf – команда, которая спросит номер новой полки (new key) и добавит ее в перечень;
+# получим от пользователя номер, а затем добавим его в список ключ:значение всех из словаря dir_dict и вернем этот список
 def add_shelf_cmd(dir_dict): # have done   as – add shelf – команда, которая спросит номер новой полки (new key) и добавит ее в перечень;
     # получим от пользователя номер, а затем добавим его в список ключ:значение всех из словаря dir_dict и вернем этот список
-    # print('add_shelf_cmd')
-    # print('old directories = ',dir_dict)
     dir_lst_keys=list()
     dir_lst_keys=dir_dict.keys() # get keys of old 'directories'
     new_key=''
@@ -162,13 +143,12 @@ def add_shelf_cmd(dir_dict): # have done   as – add shelf – команда, 
     # new_dic.append(list())
     # print(new_dic)
     return new_key
-
+##################################################################################################
 def get_cmd(dict):
     while True:
         print('Pls enter user command and press "Enter"(command q for Exit):')
         n1=input().upper()
         if n1.isalpha():
-            # print('+++++++')
             if n1 in dict:
                 return n1
             elif n1 == 'H':
@@ -262,6 +242,7 @@ def main():
             shelf_cmd(directories)
             continue
         if ucmd == 'A': # add – команда, которая добавит новый документ в каталог и в перечень полок, спросив его номер, тип, имя владельца
+            # и вернет новый каталог документов
             new_doc=dict()
             new_doc = get_doc()
             documents.append(new_doc)
@@ -336,38 +317,3 @@ def main():
 
 main()
 
-
-# def get_warm1(dct, temp=20): # t=20 - значение по умолчанию
-#     hot_c = []
-#     for country,prop in dct.items():
-#         if prop['aver_temp'] > temp:
-#             hot_c.append(country)
-#     return hot_c
-# def input_temp():
-#     while True:
-#         print('введите температуру и нажмите Enter: ')
-#         n1=input()
-#         if n1.isdigit():
-#             n2=int(n1)
-#             return n2
-#         else:
-#             print('нужно ввести число')
-#             continue
-# def get_temp():
-#     while True:
-#         print('введите температуру и нажмите Enter (или введите 0 для выхода): ')
-#         n1=input()
-#         if n1.isdigit():
-#             return n1
-#         else:
-#             print('нужно ввести число')
-#             continue
-# def main():
-#     while True:
-#         temp1=int(get_temp())
-#         # n1 = input()
-#         if temp1 == 0:
-#             print('До свидания ))')
-#             return 0
-#         c=get_warm1(countries,temp1)
-#         print('Warm countries = ', c)
