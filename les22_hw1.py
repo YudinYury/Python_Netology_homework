@@ -130,7 +130,7 @@ def main():
     json_cook_book = get_cook_book_from_json_file('recipes.json')
     yaml_cook_book = get_cook_book_from_yaml_file('recipes.yml')
 
-    dish_list_from_txt=get_dish_list(txt_cook_book)
+    dish_list_from_txt = get_dish_list(txt_cook_book)
     dish_list_from_json = get_dish_list(json_cook_book)
     dish_list_from_yaml = get_dish_list(yaml_cook_book)
 
