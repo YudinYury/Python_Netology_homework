@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Python_Question_by_HackerRank" />
     <orderEntry type="module" module-name="Question_by_HackerRank" />
+    <orderEntry type="module" module-name="Python_course" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

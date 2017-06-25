@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Python_Question_by_HackerRank/.idea/Python_Question_by_HackerRank.iml" filepath="$PROJECT_DIR$/../Python_Question_by_HackerRank/.idea/Python_Question_by_HackerRank.iml" />
+      <module fileurl="file://D:\Python_my\Python_Question_by_HackerRank\.idea\Python_Question_by_HackerRank.iml" filepath="D:\Python_my\Python_Question_by_HackerRank\.idea\Python_Question_by_HackerRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Python_course/.idea/Python_course.iml" filepath="$PROJECT_DIR$/Python_course/.idea/Python_course.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_netology_homework.iml" filepath="$PROJECT_DIR$/.idea/Python_netology_homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Question_by_HackerRank/.idea/Question_by_HackerRank.iml" filepath="$PROJECT_DIR$/../Question_by_HackerRank/.idea/Question_by_HackerRank.iml" />
     </modules>
