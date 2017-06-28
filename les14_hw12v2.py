@@ -17,29 +17,7 @@
 
 import copy
 import math
-
-cmd_dict = {
-    'P':'people', # have done
-    'L':'list', # have done
-    'S':'shelf', # have done
-    'A':'add', # have done
-    'D':'delete',
-    'M': 'move',
-    'AS': 'add shelf', # have done
-    'Q': 'quit'
-}
-documents = [
-        {"type": "passport", "number": "2207 876234", "name": "Василий Гупкин"},
-        {"type": "invoice", "number": "11-2", "name": "Геннадий Покемонов"},
-        {"type": "insurance", "number": "10006", "name": "Аристарх Павлов"}
-      ]
-directories = {
-        '1': ['2207 876234', '11-2'],
-        '2': ['10006'],
-        '3': []
-      }
-
-
+from pprint import pprint
 
 def people_cmd(doc_lst):  # have done
     print('Pls enter document number')
@@ -68,14 +46,11 @@ def shelf_cmd(doc_lst):  # have done
     ss=list()
     for si in doc_lst:
         ss=doc_lst[si]
-        # print('doc_num= ',doc_num)
-        # print(type(ss),'ss= ',ss)
         if doc_num in ss:
             print('Have found  the document {0} in Directories #{1}'.format(doc_num,si))
             s+=1
     print('Found {0} Directories'.format(s))
     return 0
-
 
 ##################################################################################################
 # def add_shelf_cmd(dir_dict): # have done   as – add shelf – команда, которая спросит номер новой полки (new key) и добавит ее в перечень;
@@ -103,6 +78,7 @@ def add_shelf_cmd(dir_dict): # have done   as – add shelf – команда, 
     # new_dic.append(list())
     # print(new_dic)
     return new_key
+
 ##################################################################################################
 def get_cmd(dict):
     while True:
@@ -146,6 +122,7 @@ def get_new_dir(dir_dict):  #  получает от пользователя н
             continue
     # return '4'
     return new_key
+
 ##################################################################################################
 # get_dir(): string - получает от пользователя номер полки и возвращает string с этим номером
 def get_dir():
@@ -171,6 +148,7 @@ def get_doc_num():
             break
     return new
     # return '11-2'
+
 ##################################################################################################
 def get_doc(): # получает от пользователя key:value для нового документ и возвращает list с этими
     new_doc={'type':'', 'number': '', 'name': ''}
@@ -188,19 +166,55 @@ def get_doc(): # получает от пользователя key:value для
     return new_doc
 
 ##################################################################################################
-# def add_cmd(doc_lst, dir_dict):
+# def add_cmd(documents_list, directories_dict):
 #  a – add – команда, которая добавит новый документ в каталог и в перечень полок,
 # спросив его номер, тип, имя владельца и номер полки, на котором он будет храниться.
 def add_cmd(documents_list, directories_dict):
+    new_doc=dict()
+    new_doc = get_doc()
+    documents_list.append(new_doc)
+    new_dir=''
+    new_dir=get_dir()
+    dkl=directories_dict.keys()
+    if new_dir in dkl:
+        # print('такая папка уже есть')
+        directories_dict[new_dir].append(new_doc['number'])
+    else:
+        print('новая папка')
+        directories_dict[new_dir]=new_doc['number']
+    # print('directories = ',directories)
+    return documents_list, directories_dict
+
+##################################################################################################
+# def del_cmd(documents_list, directories_dict):
+# d – delete – команда, которая спросит номер документа и удалит его из каталога и из перечня полок;
+def del_cmd(documents_list, directories_dict):
 
     return documents_list, directories_dict
 
-
-
 ##################################################################################################
-
 def main():
-    # new_d=''  # string для получения номера новой полки
+    cmd_dict = {
+        'P': 'people',  # have done
+        'L': 'list',  # have done
+        'S': 'shelf',  # have done
+        'A': 'add',  # have done
+        'D': 'delete',
+        'M': 'move',
+        'AS': 'add shelf',  # have done
+        'Q': 'quit'
+    }
+    documents = [
+        {"type": "passport", "number": "2207 876234", "name": "Василий Гупкин"},
+        {"type": "invoice", "number": "11-2", "name": "Геннадий Покемонов"},
+        {"type": "insurance", "number": "10006", "name": "Аристарх Павлов"}
+    ]
+    directories = {
+        '1': ['2207 876234', '11-2'],
+        '2': ['10006'],
+        '3': []
+    }
+
     while True:
         ucmd=get_cmd(cmd_dict)
         if ucmd == 'Q':
@@ -217,32 +231,8 @@ def main():
             continue
         if ucmd == 'A': # add – команда, которая добавит новый документ в каталог и в перечень полок, спросив его номер, тип, имя владельца
             # и вернет новый каталог документов
-            # print('documents =', documents)
-            print(documents)
-            print('directories =', directories)
             documents, directories = add_cmd(documents, directories)
-            print('documents =', documents)
-            print('directories =', directories)
-
             continue
-
-
-            # new_doc=dict()
-            # new_doc = get_doc()
-            # documents.append(new_doc)
-            # new_dir=''
-            # new_dir=get_dir()
-            # # print('directories = ',directories)
-            # dkl=directories.keys()
-            # if new_dir in dkl:
-            #     # print('такая папка уже есть')
-            #     directories[new_dir].append(new_doc['number'])
-            # else:
-            #     # print('новая папка')
-            #     directories[new_dir]=new_doc['number']
-            # # print('directories = ',directories)
-            #
-            # continue
 
         if ucmd == 'D': # d – delete – команда, которая спросит номер документа и удалит его из каталога и из перечня полок;
             # print('delete_cmd')
@@ -301,6 +291,6 @@ def main():
             continue
 
 # I read https://habrahabr.ru/post/180509/ and use it
-# if __name__ == '__main__':
-main()
+if __name__ == '__main__':
+    main()
 
