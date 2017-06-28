@@ -17,7 +17,6 @@
 
 import copy
 import math
-import csv
 
 cmd_dict = {
     'P':'people', # have done
@@ -315,5 +314,7 @@ def main():
             # print('new directories = ', directories)
             continue
 
-main()
+# I read https://habrahabr.ru/post/180509/ and use it
+if __name__ == '__main__':
+    main()
 
