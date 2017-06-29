@@ -18,7 +18,7 @@
       <file leaf-file-name="les14_hw12v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/les14_hw12v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="1054">
               <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding>
                 <element signature="e#1091#1102#0" expanded="true" />
@@ -112,14 +112,15 @@
       <file leaf-file-name="Text_Wrap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+            <state relative-caret-position="-8">
+              <caret line="156" column="18" lean-forward="true" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="18" />
               <folding>
-                <element signature="e#0#1936#1" expanded="false" />
-                <element signature="e#1938#1953#0" expanded="true" />
-                <element signature="e#2303#2511#0" expanded="false" />
-                <element signature="e#2662#2750#0" expanded="false" />
-                <element signature="e#3270#3642#0" expanded="false" />
+                <element signature="e#2597#2612#0" expanded="true" />
+                <element signature="e#2962#3170#0" expanded="false" />
+                <element signature="e#3321#3409#0" expanded="false" />
+                <element signature="e#3929#4301#0" expanded="false" />
+                <element signature="e#4468#4594#0" expanded="false" />
+                <element signature="e#4626#4959#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,7 +129,7 @@
       <file leaf-file-name="Whats_Your_Name.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Whats_Your_Name.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="2754">
               <caret line="165" column="61" lean-forward="false" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="61" />
               <folding>
                 <element signature="e#4227#4289#0" expanded="false" />
@@ -211,6 +212,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,8 +270,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -645,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498661817393</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Task &quot;Alphabet Rangoli&quot; have done other way">
+      <created>1498720065204</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1498720065204</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,7 +674,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17700455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37315875" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37315875" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
@@ -713,7 +721,8 @@
     <MESSAGE value="update les14hw12v2" />
     <MESSAGE value="HackerRank task &quot;String Formatting&quot; have done" />
     <MESSAGE value="HackerRank task &quot;Alphabet Rangoli&quot; have done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank task &quot;Alphabet Rangoli&quot; have done" />
+    <MESSAGE value="Task &quot;Alphabet Rangoli&quot; have done other way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task &quot;Alphabet Rangoli&quot; have done other way" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,7 +1048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/les14_hw12v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="1054">
           <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding>
             <element signature="e#1091#1102#0" expanded="true" />
@@ -1064,13 +1073,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-317">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Whats_Your_Name.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="2754">
           <caret line="165" column="61" lean-forward="false" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="61" />
           <folding>
             <element signature="e#4227#4289#0" expanded="false" />
@@ -1082,14 +1090,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+        <state relative-caret-position="-8">
+          <caret line="156" column="18" lean-forward="true" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="18" />
           <folding>
-            <element signature="e#0#1936#1" expanded="false" />
-            <element signature="e#1938#1953#0" expanded="true" />
-            <element signature="e#2303#2511#0" expanded="false" />
-            <element signature="e#2662#2750#0" expanded="false" />
-            <element signature="e#3270#3642#0" expanded="false" />
+            <element signature="e#2597#2612#0" expanded="true" />
+            <element signature="e#2962#3170#0" expanded="false" />
+            <element signature="e#3321#3409#0" expanded="false" />
+            <element signature="e#3929#4301#0" expanded="false" />
+            <element signature="e#4468#4594#0" expanded="false" />
+            <element signature="e#4626#4959#0" expanded="false" />
           </folding>
         </state>
       </provider>
