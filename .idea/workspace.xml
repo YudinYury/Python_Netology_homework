@@ -112,8 +112,8 @@
       <file leaf-file-name="Text_Wrap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
               <folding>
                 <element signature="e#0#1936#1" expanded="false" />
                 <element signature="e#1938#1953#0" expanded="true" />
@@ -638,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498659168864</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="HackerRank task &quot;Alphabet Rangoli&quot; have done">
+      <created>1498661817393</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1498661817393</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -705,7 +712,8 @@
     <MESSAGE value="update les21hw1" />
     <MESSAGE value="update les14hw12v2" />
     <MESSAGE value="HackerRank task &quot;String Formatting&quot; have done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank task &quot;String Formatting&quot; have done" />
+    <MESSAGE value="HackerRank task &quot;Alphabet Rangoli&quot; have done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank task &quot;Alphabet Rangoli&quot; have done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1074,8 +1082,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
           <folding>
             <element signature="e#0#1936#1" expanded="false" />
             <element signature="e#1938#1953#0" expanded="true" />
