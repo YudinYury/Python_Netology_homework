@@ -127,7 +127,7 @@ def get_new_dir(dir_dict):  #  получает от пользователя н
 # get_dir(): string - получает от пользователя номер полки и возвращает string с этим номером
 def get_dir():
     while True:
-        print('Pls enter number of Directories (digit)')
+        print('Pls enter number of destination Directories (digit)')
         new_key = input()
         if new_key.isdigit():
             return new_key
@@ -166,7 +166,13 @@ def get_doc(): # получает от пользователя key:value для
     return new_doc
 
 ##################################################################################################
-# def add_cmd(documents_list, directories_dict):
+def doc_find_number(doc_list_for_find, number):
+    for d in doc_list_for_find:
+        if d['number'] == number:
+            return True
+    return False
+##################################################################################################
+# add_cmd(documents_list, directories_dict):
 #  a – add – команда, которая добавит новый документ в каталог и в перечень полок,
 # спросив его номер, тип, имя владельца и номер полки, на котором он будет храниться.
 def add_cmd(documents_list, directories_dict):
@@ -180,17 +186,60 @@ def add_cmd(documents_list, directories_dict):
         # print('такая папка уже есть')
         directories_dict[new_dir].append(new_doc['number'])
     else:
-        print('новая папка')
-        directories_dict[new_dir]=new_doc['number']
-    # print('directories = ',directories)
+        # print('новая папка')
+        directories_dict[new_dir] = []
+        directories_dict[new_dir].append(new_doc['number'])
+    # print('directories = ',directories_dict)
     return documents_list, directories_dict
 
 ##################################################################################################
-# def del_cmd(documents_list, directories_dict):
+# del_cmd(documents_list, directories_dict):
 # d – delete – команда, которая спросит номер документа и удалит его из каталога и из перечня полок;
 def del_cmd(documents_list, directories_dict):
+    doc_num = get_doc_num()
+    if doc_find_number(documents_list, doc_num):
+        for dd in directories_dict:
+            # print(type(directories[d]), 'directories[d] = ', directories[d])
+            if doc_num in directories_dict[dd]:
+                directories_dict[dd].remove(doc_num)
+                break
+        if len(directories_dict[dd]) == 0:
+            print('Directories "{}" is empty ... will be deleted.'.format(dd))
+            del directories_dict[dd]
+        else:
+            print('Document number {} not found'.format(doc_num))
+
+        for dl in documents_list:
+            if dl['number'] == doc_num:
+                documents_list.remove(dl)
+    else:
+        return documents_list, directories_dict
 
     return documents_list, directories_dict
+
+##################################################################################################
+# def move_cmd(documents_list, directories_dict):
+# move – команда, которая спросит номер документа и целевую полку и переместит его с текущей полки на целевую;
+def move_cmd(documents_list, directories_dict):
+    new_directories_dict = {}
+    tmp_dict = dict()
+    doc_num = get_doc_num()
+
+    if doc_find_number(documents_list, doc_num):
+        # d_moved = dict()
+        for di in directories_dict:  # удаляем документ с полки
+            if doc_num in directories_dict[di]:
+                directories_dict[di].remove(doc_num)
+
+        dir_num = get_dir()
+        old_value = directories_dict.setdefault(dir_num, [])
+        old_value.append(doc_num)
+        directories_dict.update({dir_num: old_value})
+    else:
+        print('Document number {} not found'.format(doc_num))
+        return directories_dict
+
+    return directories_dict
 
 ##################################################################################################
 def main():
@@ -223,64 +272,25 @@ def main():
         if ucmd == 'P':
             people_cmd(documents)
             continue
+
         if ucmd == 'L':
             list_cmd(documents)
             continue
+
         if ucmd == 'S':
             shelf_cmd(directories)
             continue
+
         if ucmd == 'A': # add – команда, которая добавит новый документ в каталог и в перечень полок, спросив его номер, тип, имя владельца
             # и вернет новый каталог документов
             documents, directories = add_cmd(documents, directories)
             continue
 
         if ucmd == 'D': # d – delete – команда, которая спросит номер документа и удалит его из каталога и из перечня полок;
-            # print('delete_cmd')
-            doc_num=get_doc_num()
-            for d in directories:
-                # print(type(directories[d]), 'directories[d] = ', directories[d])
-                if doc_num in directories[d]:
-                    # print('included !!!')
-                    directories[d].remove(doc_num)
-            # print(documents)
-            for d in documents:
-                # print('documents[i] = ', documents[i])
-                if doc_num == d['number']:
-                    # print(documents)
-                    # print('included !!!')
-                    documents.remove(d)
-            print(documents)
-            continue
+            documents, directories = del_cmd(documents, directories)
 
         if ucmd == 'M': # move – команда, которая спросит номер документа и целевую полку и переместит его с текущей полки на целевую;
-            d_moved=dict()
-            cycle=1
-            while cycle:
-                doc_num=get_doc_num()
-                for d in documents:
-                    if doc_num == d['number']:
-                        print('Founded !!!')
-                        d_moved=d.copy()
-                        print(type(d_moved), 'd_moved = ', d_moved)
-                        cycle=0
-                        break
-                # print('Не найден документ с номером ', doc_num)
-
-            dir_num=get_dir()
-            for di in directories:  # удаляем документ с полки
-                # print(type(directories[d]), 'directories[d] = ', directories[d])
-                if doc_num in directories[di]:
-                    # print('included !!!')
-                    directories[di].remove(doc_num)
-            dkl=directories.keys()
-            if dir_num in dkl:
-                # print('такая папка уже есть')
-                directories[dir_num].append(d_moved['number'])
-            else:
-                # print('новая папка')
-                directories[dir_num]=d_moved['number']
-
-
+            directories = move_cmd(documents, directories)
             continue
 
         if ucmd == 'AS':
