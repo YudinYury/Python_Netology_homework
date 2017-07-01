@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less_2_4_hw.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less_2_4_classwork.py" afterPath="$PROJECT_DIR$/less_2_4_classwork.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less_2_4_hw.py" afterPath="$PROJECT_DIR$/less_2_4_hw.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,12 +18,13 @@
       <file leaf-file-name="less_2_4_hw.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
+                <element signature="e#0#1667#1" expanded="false" />
                 <element signature="e#1669#1680#0" expanded="true" />
-                <element signature="e#2001#2958#0" expanded="false" />
-                <element signature="e#3246#3328#0" expanded="false" />
+                <element signature="e#1891#2848#0" expanded="false" />
+                <element signature="e#3039#3121#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -593,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498738696179</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="lesson 2.4 homework_12 have done">
+      <created>1498907655056</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1498907655056</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -612,11 +618,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12481089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37315875" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585924" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585924" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -685,7 +692,8 @@
     <MESSAGE value="Task &quot;Alphabet Rangoli&quot; have done other way" />
     <MESSAGE value="Task &quot;Capitalize!&quot; have done" />
     <MESSAGE value="update the solve of homework_12 - update main() and update functions add_cmd(), move_cmd(), del_cmd()" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the solve of homework_12 - update main() and update functions add_cmd(), move_cmd(), del_cmd()" />
+    <MESSAGE value="lesson 2.4 homework_12 have done" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 2.4 homework_12 have done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1064,12 +1072,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#1667#1" expanded="false" />
             <element signature="e#1669#1680#0" expanded="true" />
-            <element signature="e#2001#2958#0" expanded="false" />
-            <element signature="e#3246#3328#0" expanded="false" />
+            <element signature="e#1891#2848#0" expanded="false" />
+            <element signature="e#3039#3121#0" expanded="false" />
           </folding>
         </state>
       </provider>
