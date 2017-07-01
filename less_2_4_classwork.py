@@ -1,5 +1,4 @@
 '''lesson_2_4 classwork «Работа с папками, путями»
-
 '''
 
 import copy
@@ -52,13 +51,32 @@ migrations_path = 'https://github.com/netology-code/Python_course/tree/master/ho
 print(os.path.dirname(migrations_file_path))
 print(os.path.exists(migrations_file_path))
 
+#
+# migrations_github_path = 'https://github.com/netology-code/Python_course/blob/master/homework/2.3-paths/Migrations/000_1-28_Create_user_grant_rights_A350.sql'
+# migrations_path_str = 'D:\Python_my\Python_Netology_homework\Python_course\homework\2.3-paths\Migrations'
+# os_path = ['D:','Python_my', 'Python_netology_homework', 'Python_course', 'PY1_Lesson_2.3']
+# work_dir = []
+# # migrations_file_path_list = migrations_file_path_str
+#
+#
+# os.chdir(os.path.normpath(migrations_path_str))
+# print('current_dir =', os.getcwd())
+# pprint(os.listdir())
+#
+# print(os.path.abspath(migrations_path_str))
+#
+# os.path.abspath(migrations_path_str)
 
+# print(os.path.join(*['some', 'directory', 'path']))
+# print(__file__)
 
-# def test_some_args (*args):
-#     print(type(args[0]), args[0])
-#     print(type(args[1]), args[1])
-#     ret = (args[0], args[1], args[0]+args[1])
-#     return args[0], args[1], args[0]+args[1]
+# os.chdir('hey')
+# print(os.getcwd())
+# print('{}'.format(os.listdir('.')))
+
+# os.chdir('ho')
+# print(os.getcwd())
+# print('{}'.format(os.listdir('.')))
 
 ##################################################################################################
 # def main():
