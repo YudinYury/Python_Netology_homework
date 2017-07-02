@@ -7,6 +7,7 @@ import copy
 import os
 from pprint import pprint
 import sys
+import subprocess
 
 ##################################################################################################
 # with open('recipes.txt', encoding='cp1251') as f:
@@ -36,7 +37,8 @@ def main():
     else:
         print('Hello {}'.format(sys.argv[1]))
 
-
+    print('------------------')
+    subprocess.call('ping yandex.ru')
 
 
 #################################################################################################
