@@ -8,6 +8,7 @@ import os
 from pprint import pprint
 import sys
 import subprocess
+import time
 
 ##################################################################################################
 # with open('recipes.txt', encoding='cp1251') as f:
@@ -37,8 +38,22 @@ def main():
     else:
         print('Hello {}'.format(sys.argv[1]))
 
-    print('------------------')
+    print('--------- call external program')
     subprocess.call('ping yandex.ru')
+    process = subprocess.run('ping yandex.ru')  # run возвращает нам объект процесса
+    print('Return code "ping yandex.ru" = ', process.returncode)
+    # process_2 = subprocess.run('ping yyyyyandex.ru')
+    # print('Return code "ping yandex.ru" = ', process_2.returncode)
+    print('stdout ping =', process.stdout) # Python перехватит и будет None
+    print('stderr ping =', process.stderr)
+    print('argv ping =', process.args, type(process.args))
+    process = subprocess.run('python less_2_3_classwork.py')
+    print('Return code python less_2_3_classwork.py =', process.returncode)
+
+    programm = subprocess.Popen('')
+
+
+    exit(0)
 
 
 #################################################################################################

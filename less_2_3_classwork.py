@@ -27,6 +27,7 @@ a,b,c = test_some_args(1,2)
 print(type(a), 'a =', a)
 print(type(b), 'b =', b)
 print(type(c), 'c =', c)
+exit (4)
 
 # with open('recipes.txt', 'rb') as f:
 #     text=f.read() # чтение байтовое
