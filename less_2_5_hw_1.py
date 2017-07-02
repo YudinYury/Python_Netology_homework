@@ -75,7 +75,6 @@ def main():
     destination_dir = 'Result'
 
     start_current_dir = os.path.abspath(os.getcwd())
-    current_dir = os.path.abspath(os.getcwd())
 
     if find_dir(source_dir) == 1:
         print('Source dir not found')

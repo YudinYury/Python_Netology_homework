@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less_2_5_hw_1.py" afterPath="$PROJECT_DIR$/less_2_5_hw_1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="less_2_5_hw_1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="98" column="31" lean-forward="true" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="e#183#194#0" expanded="true" />
                 <element signature="e#289#320#0" expanded="false" />
@@ -666,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499013081726</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="lesson 2.5 homework have done">
+      <created>1499013094193</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1499013094193</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -735,7 +743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson 1.5 homework TODO_2" />
     <MESSAGE value="lesson 1.5 homework TODO_3" />
     <MESSAGE value="lesson 1.6 classwork" />
     <MESSAGE value="lesson 1.6 homework, TODO 1&amp;2" />
@@ -760,7 +767,8 @@
     <MESSAGE value="lesson 2.4 homework_12 update" />
     <MESSAGE value="update minion_game" />
     <MESSAGE value="added English comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added English comments" />
+    <MESSAGE value="lesson 2.5 homework have done" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 2.5 homework have done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1116,8 +1124,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="98" column="31" lean-forward="true" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="e#183#194#0" expanded="true" />
             <element signature="e#289#320#0" expanded="false" />
