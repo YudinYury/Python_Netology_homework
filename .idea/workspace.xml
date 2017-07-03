@@ -18,11 +18,11 @@
       <file leaf-file-name="Numpy_Challenges .py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding>
-                <element signature="e#1481#1493#0" expanded="true" />
-                <element signature="e#1849#1910#0" expanded="false" />
+                <element signature="e#1800#1812#0" expanded="true" />
+                <element signature="e#2168#2229#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -757,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499093186331</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="&quot;Dot and Cross&quot; (Numpy) by HackerRank have done">
+      <created>1499094613638</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1499094613638</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -826,7 +833,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson_2_2 classwork &quot;Work for different data formats&quot;" />
     <MESSAGE value="lesson_2_2 homework &quot;Work for different data formats&quot;" />
     <MESSAGE value="List Comprehensions by HackerRank" />
     <MESSAGE value="Whats_Your_Name by HackerRank" />
@@ -851,7 +857,8 @@
     <MESSAGE value="&quot;Min and Max&quot; (Numpy) by HackerRank have done (use special func for input)" />
     <MESSAGE value="&quot;Mean, Var, and Std&quot; (Numpy) by HackerRank have done (use special func for input)" />
     <MESSAGE value="update &quot;Mean, Var, and Std&quot; (Numpy)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update &quot;Mean, Var, and Std&quot; (Numpy)" />
+    <MESSAGE value="&quot;Dot and Cross&quot; (Numpy) by HackerRank have done" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dot and Cross&quot; (Numpy) by HackerRank have done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1212,11 +1219,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
-            <element signature="e#1481#1493#0" expanded="true" />
-            <element signature="e#1849#1910#0" expanded="false" />
+            <element signature="e#1800#1812#0" expanded="true" />
+            <element signature="e#2168#2229#0" expanded="false" />
           </folding>
         </state>
       </provider>
