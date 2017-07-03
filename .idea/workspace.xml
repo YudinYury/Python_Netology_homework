@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Merge_the_Tools.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Numpy_Challenges .py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#401#413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Merge_the_Tools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="79">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="e#1047#1062#0" expanded="true" />
                 <element signature="e#1126#1157#0" expanded="false" />
@@ -59,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="117">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#183#194#0" expanded="true" />
                 <element signature="e#355#824#0" expanded="false" />
@@ -176,6 +188,7 @@
         <option value="$PROJECT_DIR$/less_2_5_classwork.py" />
         <option value="$PROJECT_DIR$/less_2_5_hw_1.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py" />
+        <option value="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" />
       </list>
     </option>
   </component>
@@ -242,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Merge_the_Tools">
+  <component name="RunManager" selected="Python.Numpy_Challenges ">
     <configuration default="false" name="Text_Wrap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,24 +269,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Question_by_HackerRank" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="less_2_4_hw" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_netology_homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_2_4_hw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,6 +323,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Question_by_HackerRank" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Numpy_Challenges " type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Question_by_HackerRank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Question_by_HackerRank" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -399,18 +412,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Text_Wrap" />
-      <item index="1" class="java.lang.String" itemvalue="Python.less_2_4_hw" />
-      <item index="2" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
-      <item index="3" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
+      <item index="1" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
+      <item index="2" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Numpy_Challenges " />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
-        <item index="1" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Text_Wrap" />
-        <item index="4" class="java.lang.String" itemvalue="Python.less_2_4_hw" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Numpy_Challenges " />
+        <item index="1" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
+        <item index="2" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Text_Wrap" />
       </list>
     </recent_temporary>
   </component>
@@ -694,7 +707,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499013134870</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="&quot;Merge the Tools!&quot; by HackerRank have done">
+      <created>1499079575373</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1499079575373</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -763,7 +783,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson 1.5 homework TODO_3" />
     <MESSAGE value="lesson 1.6 classwork" />
     <MESSAGE value="lesson 1.6 homework, TODO 1&amp;2" />
     <MESSAGE value="lesson 2.1 classwork" />
@@ -788,7 +807,8 @@
     <MESSAGE value="update minion_game" />
     <MESSAGE value="added English comments" />
     <MESSAGE value="lesson 2.5 homework have done" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 2.5 homework have done" />
+    <MESSAGE value="&quot;Merge the Tools!&quot; by HackerRank have done" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Merge the Tools!&quot; by HackerRank have done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -797,13 +817,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/les14_hw12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less_1_5_classwork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -1134,7 +1147,7 @@
     <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#183#194#0" expanded="true" />
             <element signature="e#355#824#0" expanded="false" />
@@ -1145,11 +1158,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="79">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="e#1047#1062#0" expanded="true" />
             <element signature="e#1126#1157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#401#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
