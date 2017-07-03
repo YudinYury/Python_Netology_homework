@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="Numpy_Challenges .py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#401#413#0" expanded="true" />
               </folding>
@@ -714,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499079575373</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="&quot;Sum and Prod&quot; (Numpy) by HackerRank have done">
+      <created>1499087543767</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1499087543767</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -783,7 +790,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson 1.6 classwork" />
     <MESSAGE value="lesson 1.6 homework, TODO 1&amp;2" />
     <MESSAGE value="lesson 2.1 classwork" />
     <MESSAGE value="lesson_2_1 homework «Открытие и чтение файла, запись в файл»" />
@@ -808,7 +814,8 @@
     <MESSAGE value="added English comments" />
     <MESSAGE value="lesson 2.5 homework have done" />
     <MESSAGE value="&quot;Merge the Tools!&quot; by HackerRank have done" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Merge the Tools!&quot; by HackerRank have done" />
+    <MESSAGE value="&quot;Sum and Prod&quot; (Numpy) by HackerRank have done" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Sum and Prod&quot; (Numpy) by HackerRank have done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1169,8 +1176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="e#401#413#0" expanded="true" />
           </folding>
