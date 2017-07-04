@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/les21_hw1v2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +15,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Numpy_Challenges .py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="les21_hw1v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/les21_hw1v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#2480#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="les21_hw1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/les21_hw1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Numpy_Challenges .py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -68,47 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less_2_5_hw_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#183#194#0" expanded="true" />
-                <element signature="e#355#824#0" expanded="false" />
-                <element signature="e#855#1099#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="less_2_4_hw.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="446">
               <caret line="70" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="less_2_5_classwork.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_2_5_classwork.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="e#75#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="less_2_4_classwork.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_2_4_classwork.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,34 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less_2_3_classwork.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_2_3_classwork.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Whats_Your_Name.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Whats_Your_Name.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2754">
-              <caret line="165" column="61" lean-forward="false" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="61" />
-              <folding>
-                <element signature="e#4227#4289#0" expanded="false" />
-                <element signature="e#4290#4399#0" expanded="false" />
-                <element signature="e#4461#4519#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Question_by_HackerRank" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -190,6 +152,7 @@
         <option value="$PROJECT_DIR$/less_2_5_hw_1.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py" />
+        <option value="$PROJECT_DIR$/les21_hw1v2.py" />
       </list>
     </option>
   </component>
@@ -239,8 +202,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python_my\Question_by_HackerRank" />
       <recent name="D:\Python_my\Python_netology_homework" />
+      <recent name="D:\Python_my\Question_by_HackerRank" />
       <recent name="D:\Python_my\Python_Question_by_HackerRank" />
     </key>
   </component>
@@ -256,25 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Numpy_Challenges ">
-    <configuration default="false" name="Text_Wrap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Question_by_HackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Question_by_HackerRank" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.les21_hw1v2">
     <configuration default="false" name="less_2_5_classwork" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,6 +292,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="les21_hw1v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_netology_homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/les21_hw1v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,19 +375,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Text_Wrap" />
-      <item index="1" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
-      <item index="2" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Numpy_Challenges " />
+      <item index="0" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
+      <item index="1" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Numpy_Challenges " />
+      <item index="4" class="java.lang.String" itemvalue="Python.les21_hw1v2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Numpy_Challenges " />
-        <item index="1" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
-        <item index="2" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Text_Wrap" />
+        <item index="0" class="java.lang.String" itemvalue="Python.les21_hw1v2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Numpy_Challenges " />
+        <item index="2" class="java.lang.String" itemvalue="Python.Merge_the_Tools" />
+        <item index="3" class="java.lang.String" itemvalue="Python.less_2_5_hw_1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.less_2_5_classwork" />
       </list>
     </recent_temporary>
   </component>
@@ -764,7 +727,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499094613638</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="&quot;Inner and Outer&quot; (Numpy) by HackerRank is solved">
+      <created>1499095228961</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1499095228961</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -833,7 +803,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson_2_2 homework &quot;Work for different data formats&quot;" />
     <MESSAGE value="List Comprehensions by HackerRank" />
     <MESSAGE value="Whats_Your_Name by HackerRank" />
     <MESSAGE value="String tasks (by HackerRank) are solved" />
@@ -858,7 +827,8 @@
     <MESSAGE value="&quot;Mean, Var, and Std&quot; (Numpy) by HackerRank have done (use special func for input)" />
     <MESSAGE value="update &quot;Mean, Var, and Std&quot; (Numpy)" />
     <MESSAGE value="&quot;Dot and Cross&quot; (Numpy) by HackerRank have done" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dot and Cross&quot; (Numpy) by HackerRank have done" />
+    <MESSAGE value="&quot;Inner and Outer&quot; (Numpy) by HackerRank is solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Inner and Outer&quot; (Numpy) by HackerRank is solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -867,13 +837,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less_1_5_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/les15_hw1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -1098,13 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/les21_hw1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less_2_2_classwork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1151,20 +1107,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less_2_5_classwork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="43" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#75#89#0" expanded="true" />
+            <element signature="e#75#89#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1194,18 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#183#194#0" expanded="true" />
-            <element signature="e#355#824#0" expanded="false" />
-            <element signature="e#855#1099#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -1224,6 +1160,44 @@
           <folding>
             <element signature="e#1800#1812#0" expanded="true" />
             <element signature="e#2168#2229#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/les21_hw1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#183#194#0" expanded="true" />
+            <element signature="e#355#824#0" expanded="false" />
+            <element signature="e#855#1099#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/les21_hw1v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#2480#1" expanded="false" />
           </folding>
         </state>
       </provider>
