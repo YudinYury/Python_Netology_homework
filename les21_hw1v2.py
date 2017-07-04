@@ -107,18 +107,11 @@ def get_cook_book_from_file(file_name):
             for i in range(quant):
                 ing_list = f.readline().strip().split('|')
                 ing_list = list(map(str.strip, ing_list))
-                # print('ing_list =',ing_list)
                 one_ing_dict['ingridient_name'] = ing_list[0]
                 one_ing_dict['quantity'] = int(ing_list[1])
                 one_ing_dict['measure'] = ing_list[2]
-
-                # print(type(one_ing_list), 'one_ing_list =', one_ing_list)
-                # print(type(cook_bk[culinary_name]), 'cook_bk[',culinary_name,'] =', cook_bk[culinary_name])
-                # print('----        Uuuuuuuuse .append()      ----')
                 one_ing_list_to_add=copy.deepcopy(one_ing_dict)
                 cook_bk[culinary_name].append(one_ing_list_to_add)
-                # print(type(cook_bk[culinary_name]), 'cook_bk[',culinary_name,'] =', cook_bk[culinary_name])
-                # print('cook_bk = ', cook_bk)
 
     return cook_bk
 
@@ -129,10 +122,8 @@ def get_shop_list_by_dishes(ck_book, dishes, person_count):
   for dish in dishes:
     for ingridient in ck_book[dish]:
       new_shop_list_item = dict(ingridient)
-
       new_shop_list_item['quantity'] *= int(person_count)
       if new_shop_list_item['ingridient_name'] not in shop_list:
-
           shop_list[new_shop_list_item['ingridient_name']] = new_shop_list_item
       else:
           k=int(new_shop_list_item['quantity'])
@@ -179,6 +170,7 @@ def main():
     shop_lst=get_shop_list_by_dishes(cook_book, dish_list, person_count)
     # print(shop_lst)
     print_shop_list(shop_lst)
+
 
 #############################################################################################################
 #TODO 2:
