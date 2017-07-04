@@ -160,15 +160,11 @@ def get_dish_list(ck_book):
 
 def main():
     shop_lst={}
-
     cook_book=get_cook_book_from_file('recipes.txt')
-    # print(cook_book)
     dish_list=get_dish_list(cook_book)
-    # print(dish_list)
     print('Введите количество человек: ')
     person_count = int(input())
     shop_lst=get_shop_list_by_dishes(cook_book, dish_list, person_count)
-    # print(shop_lst)
     print_shop_list(shop_lst)
 
 
