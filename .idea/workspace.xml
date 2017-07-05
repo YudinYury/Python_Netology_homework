@@ -18,8 +18,8 @@
       <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -60,6 +60,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Numpy_Challenges .py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="e#2168#2229#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="les22_hw1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/les22_hw1.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,11 +85,10 @@
       <file leaf-file-name="Merge_the_Tools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="101">
+              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="e#1047#1062#0" expanded="true" />
-                <element signature="e#1126#1157#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,19 +100,6 @@
             <state relative-caret-position="353">
               <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="less_2_3_hw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_2_3_hw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#392#406#0" expanded="true" />
-                <element signature="e#689#898#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -400,13 +398,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
-    </task>
-    <task id="LOCAL-00005" summary="lesson 1.5 homework TODO_3">
-      <created>1497611669729</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1497611669730</updated>
     </task>
     <task id="LOCAL-00006" summary="lesson 1.6 classwork">
       <created>1497805712324</created>
@@ -744,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499245553578</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="&quot;Symmetric Difference&quot; by HackerRank is solved.">
+      <created>1499247695312</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1499247695312</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -817,7 +815,6 @@
       <path value="$PROJECT_DIR$/BiblBot" />
       <path value="D:\Python_my\Python_netology_homework\BiblBot" />
     </ignored-roots>
-    <MESSAGE value="Text Alignment Question by HackerRank solved" />
     <MESSAGE value="lesson_2_3 homework have done" />
     <MESSAGE value="update les21hw1" />
     <MESSAGE value="update les14hw12v2" />
@@ -842,7 +839,8 @@
     <MESSAGE value="update lesson_2_1 homework" />
     <MESSAGE value="I begin make my first telegram-bot." />
     <MESSAGE value="First task from &quot;Introduction to Sets&quot; have done." />
-    <option name="LAST_COMMIT_MESSAGE" value="First task from &quot;Introduction to Sets&quot; have done." />
+    <MESSAGE value="&quot;Symmetric Difference&quot; by HackerRank is solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Symmetric Difference&quot; by HackerRank is solved." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1068,17 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_3_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#392#406#0" expanded="true" />
-            <element signature="e#689#898#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BiblBot/bibl_bot.py" />
     <entry file="file://$PROJECT_DIR$/../BiblBot/config.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1091,17 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="126" column="20" lean-forward="true" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
-          <folding>
-            <element signature="e#1800#1812#0" expanded="false" />
-            <element signature="e#2168#2229#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,33 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/les22_hw1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#1047#1062#0" expanded="true" />
-            <element signature="e#1126#1157#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../BiblBot/bibl_bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1194,10 +1143,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less_2_3_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#392#406#0" expanded="true" />
+            <element signature="e#689#898#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#2168#2229#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/les22_hw1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#1047#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="17" />
           <folding />
         </state>
       </provider>
