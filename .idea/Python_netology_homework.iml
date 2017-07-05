@@ -7,6 +7,10 @@
     <orderEntry type="module" module-name="Python_Question_by_HackerRank" />
     <orderEntry type="module" module-name="Question_by_HackerRank" />
     <orderEntry type="module" module-name="Python_course" />
+    <orderEntry type="module" module-name="BiblBot" />
+    <orderEntry type="module" module-name="BiblBot" />
+    <orderEntry type="module" module-name="Bible_bot" />
+    <orderEntry type="module" module-name="BiblBot" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

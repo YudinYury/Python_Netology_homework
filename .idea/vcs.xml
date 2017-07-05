@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../BiblBot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Python_course" vcs="Git" />
     <mapping directory="D:\Python_my\Python_netology_homework\Python_course" vcs="Git" />
   </component>

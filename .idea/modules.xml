@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BiblBot/.idea/BiblBot.iml" filepath="$PROJECT_DIR$/../BiblBot/.idea/BiblBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Bible_bot/.idea/Bible_bot.iml" filepath="$PROJECT_DIR$/../Bible_bot/.idea/Bible_bot.iml" />
       <module fileurl="file://D:\Python_my\Python_Question_by_HackerRank\.idea\Python_Question_by_HackerRank.iml" filepath="D:\Python_my\Python_Question_by_HackerRank\.idea\Python_Question_by_HackerRank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python_course/.idea/Python_course.iml" filepath="$PROJECT_DIR$/Python_course/.idea/Python_course.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_netology_homework.iml" filepath="$PROJECT_DIR$/.idea/Python_netology_homework.iml" />

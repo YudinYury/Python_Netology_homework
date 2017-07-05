@@ -87,7 +87,7 @@ def find_dir(name_target_path_str, type_of_file_str):
 # если НЕ нашел - False
 def search_str_in_file(file_name, search_str):
     with open(os.path.join(file_name)) as f:
-        read_str = f.readline()
+        read_str = f.read()
         if search_str in read_str:
             return True
 
