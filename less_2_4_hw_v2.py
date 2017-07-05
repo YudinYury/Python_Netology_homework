@@ -38,6 +38,7 @@
 import copy
 import os
 import os.path
+import sys
 from pprint import pprint
 import re
 
@@ -74,19 +75,29 @@ def find_dir(name_target_path_str, type_of_file_str):
     target_path_str = os.path.realpath(work_dir)
 
     file_list = os.listdir()
-    file_list = [i for i in file_list if i[-4:] == type_of_file_str]
+    file_list = [i for i in file_list if i.endswithi(type_of_file_str)]
 
     os.chdir(start_current_dir)
 
     return target_path_str, file_list
 
 
+def get_file_list(target_path_str, type_of_file):
+    start_dir = os.path.abspath(os.getcwd())
+    os.chdir(target_path_str)
+    file_list = os.listdir()
+    file_list = [i for i in file_list if i.endswith(type_of_file)]
+    if file_list:
+        print('Target directory not found', file=sys.stderr)
+
+    os.chdir(start_dir)
+    return file_list
 
 # ищет в файле нужную строку и возвращает:
 # если нашел - True
 # если НЕ нашел - False
 def search_str_in_file(file_name, search_str):
-    with open(os.path.join(file_name)) as f:
+    with open(file_name) as f:
         read_str = f.read()
         if search_str in read_str:
             return True
@@ -95,38 +106,30 @@ def search_str_in_file(file_name, search_str):
 
 
 def main():
-    work_dir = []
+    target_dir = 'Migrations'
     start_current_dir = os.path.abspath(os.getcwd())
-    print('current_dir in start moment=', start_current_dir)
-
-    migration_dir_str, sql_file_list = find_dir('Migrations', '.sql')
+    type_of_file_str = '.sql'
+    migration_dir_str = os.path.join(start_current_dir, target_dir)
+    sql_file_list = get_file_list(target_dir, type_of_file_str)
 
     while True:
         print('Введите строку для поиска:')
+        file_founded_list = []
         search_str = input()
-        # search_str = 'INSERT'
-        # search_str = 'APPLICATION_SETUP'
 
-        file_founded_list = []
-        count = 0
-        file_founded_list = []
         for file_name in sql_file_list:
             if search_str_in_file(os.path.join(migration_dir_str, file_name), search_str):
-                count += 1
                 file_founded_list.append(file_name)
-            else:
-                continue
+        count = len(file_founded_list)
 
-        sql_file_list = copy.deepcopy(file_founded_list)
+        sql_file_list = file_founded_list
 
         if count > 10:
-            print('большой список файлов...')
+            print('... большой список файлов ...')
         else:
             for f_name in file_founded_list:
                 print(f_name)
         print('Всего:', count)
-
-
 
 
 if __name__ == '__main__':
