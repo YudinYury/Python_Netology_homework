@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less_2_5_hw_1v2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less_2_5_hw_1v2.py" afterPath="$PROJECT_DIR$/less_2_5_hw_1v2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="less_2_5_hw_1v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less_2_5_hw_1v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#184#193#0" expanded="true" />
               </folding>
@@ -403,13 +403,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00008" summary="lesson 1.6 homework, TODO 1&amp;2">
-      <created>1497872649957</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1497872649957</updated>
-    </task>
     <task id="LOCAL-00009" summary="lesson 1.6 homework, TODO 1&amp;2">
       <created>1497872656275</created>
       <option name="number" value="00009" />
@@ -746,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499272303161</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="update lesson 2_5 homework - new version v2">
+      <created>1499273846235</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1499273846235</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -819,7 +819,6 @@
       <path value="$PROJECT_DIR$/BiblBot" />
       <path value="D:\Python_my\Python_netology_homework\BiblBot" />
     </ignored-roots>
-    <MESSAGE value="update les14hw12v2" />
     <MESSAGE value="HackerRank task &quot;String Formatting&quot; have done" />
     <MESSAGE value="HackerRank task &quot;Alphabet Rangoli&quot; have done" />
     <MESSAGE value="Task &quot;Alphabet Rangoli&quot; have done other way" />
@@ -844,7 +843,8 @@
     <MESSAGE value="&quot;Symmetric Difference&quot; by HackerRank is solved." />
     <MESSAGE value="&quot;No Idea&quot; by HackerRank is solved." />
     <MESSAGE value="update lesson 2_4 homework - new version v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update lesson 2_4 homework - new version v2" />
+    <MESSAGE value="update lesson 2_5 homework - new version v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update lesson 2_5 homework - new version v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1204,8 +1204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less_2_5_hw_1v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#184#193#0" expanded="true" />
           </folding>

@@ -32,6 +32,7 @@ def find_dir(dir_name):
 
 def make_new_dir(name_str):
     file_list = os.listdir()
+
     for file_str in file_list:
         if file_str == name_str:
             if os.path.isdir(file_str):
