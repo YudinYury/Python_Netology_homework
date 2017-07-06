@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less_3_1_classwork.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="less_3_1_classwork.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="less_3_1_classwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less_3_1_classwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -37,12 +37,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="-258">
+              <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <folding>
+                <element signature="e#3399#3411#0" expanded="true" />
+                <element signature="e#3767#3976#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +88,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Question_by_HackerRank" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,11 +126,11 @@
         <option value="$PROJECT_DIR$/les21_hw1v2.py" />
         <option value="$PROJECT_DIR$/../BiblBot/config.txt" />
         <option value="$PROJECT_DIR$/../BiblBot/bibl_bot.py" />
-        <option value="$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py" />
         <option value="$PROJECT_DIR$/less_2_4_hw.py" />
         <option value="$PROJECT_DIR$/less_2_4_hw_v2.py" />
         <option value="$PROJECT_DIR$/less_2_5_hw_1v2.py" />
         <option value="$PROJECT_DIR$/less_3_1_classwork.py" />
+        <option value="$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py" />
       </list>
     </option>
   </component>
@@ -194,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.less_3_1_classwork">
+  <component name="RunManager" selected="Python.Sets_Challenges">
     <configuration default="false" name="bibl_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,10 +361,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.less_3_1_classwork" />
-        <item index="1" class="java.lang.String" itemvalue="Python.less_2_5_hw_1v2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.less_2_4_hw_v2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Sets_Challenges" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Sets_Challenges" />
+        <item index="1" class="java.lang.String" itemvalue="Python.less_3_1_classwork" />
+        <item index="2" class="java.lang.String" itemvalue="Python.less_2_5_hw_1v2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.less_2_4_hw_v2" />
         <item index="4" class="java.lang.String" itemvalue="Python.bibl_bot" />
       </list>
     </recent_temporary>
@@ -379,13 +382,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
-    </task>
-    <task id="LOCAL-00010" summary="lesson 2.1 classwork">
-      <created>1497956780900</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1497956780900</updated>
     </task>
     <task id="LOCAL-00011" summary="lesson_2_1 homework «Открытие и чтение файла, запись в файл»">
       <created>1498056428114</created>
@@ -723,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499274708101</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="lesson_3_1_classwork «3.1. Zen of Python - any developer should know PEP8 and PEP20»">
+      <created>1499343588079</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1499343588080</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -796,7 +799,6 @@
       <path value="$PROJECT_DIR$/BiblBot" />
       <path value="D:\Python_my\Python_netology_homework\BiblBot" />
     </ignored-roots>
-    <MESSAGE value="HackerRank task &quot;String Formatting&quot; have done" />
     <MESSAGE value="HackerRank task &quot;Alphabet Rangoli&quot; have done" />
     <MESSAGE value="Task &quot;Alphabet Rangoli&quot; have done other way" />
     <MESSAGE value="Task &quot;Capitalize!&quot; have done" />
@@ -821,7 +823,8 @@
     <MESSAGE value="&quot;No Idea&quot; by HackerRank is solved." />
     <MESSAGE value="update lesson 2_4 homework - new version v2" />
     <MESSAGE value="update lesson 2_5 homework - new version v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update lesson 2_5 homework - new version v2" />
+    <MESSAGE value="lesson_3_1_classwork «3.1. Zen of Python - any developer should know PEP8 and PEP20»" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_3_1_classwork «3.1. Zen of Python - any developer should know PEP8 and PEP20»" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1111,14 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Numpy_Challenges .py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -1136,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less_3_1_classwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1148,6 +1143,17 @@
           <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="e#1047#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <element signature="e#3399#3411#0" expanded="true" />
+            <element signature="e#3767#3976#0" expanded="false" />
           </folding>
         </state>
       </provider>
