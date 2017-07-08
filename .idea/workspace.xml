@@ -88,8 +88,8 @@
       <file leaf-file-name="Text_Wrap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="306" column="24" lean-forward="true" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="24" />
+            <state relative-caret-position="-1380">
+              <caret line="208" column="35" lean-forward="true" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -392,13 +392,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
-    </task>
-    <task id="LOCAL-00012" summary="lesson_2_1 homework «Открытие и чтение файла, запись в файл», update TODO2">
-      <created>1498057864629</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1498057864629</updated>
     </task>
     <task id="LOCAL-00013" summary="lesson_2_1 homework «Открытие и чтение файла, запись в файл», update TODO2">
       <created>1498127574395</created>
@@ -736,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499349011189</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Update &quot;minion  game&quot;">
+      <created>1499521570695</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1499521570697</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,7 +809,6 @@
       <path value="$PROJECT_DIR$/BiblBot" />
       <path value="D:\Python_my\Python_netology_homework\BiblBot" />
     </ignored-roots>
-    <MESSAGE value="Task &quot;Alphabet Rangoli&quot; have done other way" />
     <MESSAGE value="Task &quot;Capitalize!&quot; have done" />
     <MESSAGE value="update the solve of homework_12 - update main() and update functions add_cmd(), move_cmd(), del_cmd()" />
     <MESSAGE value="lesson 2.4 homework_12 have done" />
@@ -834,7 +833,8 @@
     <MESSAGE value="update lesson 2_5 homework - new version v2" />
     <MESSAGE value="lesson_3_1_classwork «3.1. Zen of Python - any developer should know PEP8 and PEP20»" />
     <MESSAGE value="&quot;Set .add()&quot; is solved&#10;&quot;Set .discard(), .remove() &amp; .pop()&quot;  is solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Set .add()&quot; is solved&#10;&quot;Set .discard(), .remove() &amp; .pop()&quot;  is solved" />
+    <MESSAGE value="Update &quot;minion  game&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update &quot;minion  game&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1164,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="306" column="24" lean-forward="true" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="24" />
+        <state relative-caret-position="-1380">
+          <caret line="208" column="35" lean-forward="true" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
           <folding />
         </state>
       </provider>
