@@ -403,13 +403,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00017" summary="Whats_Your_Name by HackerRank">
-      <created>1498231375371</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1498231375371</updated>
-    </task>
     <task id="LOCAL-00018" summary="String tasks (by HackerRank) are solved">
       <created>1498235343368</created>
       <option name="number" value="00018" />
@@ -746,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499603093462</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Update 2.1 homework">
+      <created>1499603152286</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1499603152286</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
