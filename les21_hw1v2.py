@@ -124,10 +124,9 @@ def get_shop_list_by_dishes(ck_book, dishes, person_count):
       if new_shop_list_item['ingridient_name'] not in shop_list:
           shop_list[new_shop_list_item['ingridient_name']] = new_shop_list_item
       else:
-          k=int(new_shop_list_item['quantity'])
+          # k=int(new_shop_list_item['quantity'])
           shop_list[new_shop_list_item['ingridient_name']]['quantity'] += new_shop_list_item['quantity']
   return shop_list
-
 
 
 def print_shop_list(shop_list):
