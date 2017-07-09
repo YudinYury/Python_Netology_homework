@@ -92,7 +92,7 @@ def printerr(arg_str):
 
 def get_cook_book_from_file(file_name):
     cook_bk = {}
-    one_ing_dict = {'ingridient_name': '', 'quantity': 0, 'measure': ''}
+    # one_ing_dict = {'ingridient_name': '', 'quantity': 0, 'measure': ''}
     one_ing_list_to_add = {}
     with open('recipes.txt') as f:
         for l in f:
@@ -105,16 +105,14 @@ def get_cook_book_from_file(file_name):
                 # print('добавляем блюдо =',cook_bk)
             quant = int(f.readline())
             for i in range(quant):
+                one_ing_dict = {}
                 ing_list = f.readline().strip().split('|')
                 ing_list = list(map(str.strip, ing_list))
                 one_ing_dict['ingridient_name'] = ing_list[0]
                 one_ing_dict['quantity'] = int(ing_list[1])
                 one_ing_dict['measure'] = ing_list[2]
-                one_ing_list_to_add=copy.deepcopy(one_ing_dict)
-                cook_bk[culinary_name].append(one_ing_list_to_add)
-
+                cook_bk[culinary_name].append(one_ing_dict)
     return cook_bk
-
 
 
 def get_shop_list_by_dishes(ck_book, dishes, person_count):
@@ -127,7 +125,7 @@ def get_shop_list_by_dishes(ck_book, dishes, person_count):
           shop_list[new_shop_list_item['ingridient_name']] = new_shop_list_item
       else:
           k=int(new_shop_list_item['quantity'])
-          shop_list[new_shop_list_item['ingridient_name']]['quantity'] +=new_shop_list_item['quantity']
+          shop_list[new_shop_list_item['ingridient_name']]['quantity'] += new_shop_list_item['quantity']
   return shop_list
 
 
@@ -137,34 +135,28 @@ def print_shop_list(shop_list):
         print('{}: {} {} '.format(shopp_values['ingridient_name'], shopp_values['quantity'],shopp_values['measure']))
 
 
-
-
 def get_dish_list(ck_book):
     dish_list_for_return = []
-    inputed_dish_list = []
     inputed_dish_list = list(ck_book.keys())
     print('Введите через пробел цифры названий для трех блюд обеда. При этом используйте буквы:')
     for i, dish in enumerate(inputed_dish_list, start=1):
         print(i, ' для ', dish)
 
     print('Введите через пробел цифры названий для трех блюд обеда: ')
-    dishes=input().lower().split(' ')
-    for j in range(len(dishes)):
-        k=int(dishes[j])-1
+    dishes_num = input().lower().split(' ')
+    for num in dishes_num:
+        k = int(num)-1
         dish_list_for_return.append(inputed_dish_list[k])
-
     return dish_list_for_return
 
 
-
-
 def main():
-    shop_lst={}
-    cook_book=get_cook_book_from_file('recipes.txt')
-    dish_list=get_dish_list(cook_book)
+    shop_lst = {}
+    cook_book = get_cook_book_from_file('recipes.txt')
+    dish_list = get_dish_list(cook_book)
     print('Введите количество человек: ')
     person_count = int(input())
-    shop_lst=get_shop_list_by_dishes(cook_book, dish_list, person_count)
+    shop_lst = get_shop_list_by_dishes(cook_book, dish_list, person_count)
     print_shop_list(shop_lst)
 
 
