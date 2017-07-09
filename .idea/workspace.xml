@@ -403,13 +403,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00018" summary="String tasks (by HackerRank) are solved">
-      <created>1498235343368</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1498235343368</updated>
-    </task>
     <task id="LOCAL-00019" summary="Text Alignment Question by HackerRank solved">
       <created>1498324487014</created>
       <option name="number" value="00019" />
@@ -746,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499603152286</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Update 2.1 homework">
+      <created>1499603218703</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1499603218703</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
