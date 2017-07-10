@@ -1,4 +1,4 @@
-'''lesson_2_3 homework «Работа с кодировками, русскими буквами»
+'''lesson_3_2 homework «Работа с кодировками, русскими буквами»
 https://github.com/netology-code/Python_course/tree/master/PY1_Lesson_2.3
 Взять из github-репозитория все файлы с новостями в формате json: newsfr.json, newsit.json, newsafr.json, newscy.json.
 Написать программу, которая будет выводить топ 10 самых часто встречающихся в новостях слов длиннее 6 символов для каждого файла.
@@ -7,12 +7,6 @@ https://github.com/netology-code/Python_course/tree/master/PY1_Lesson_2.3
 import chardet
 import json
 import collections
-import yaml
-from xml.etree import ElementTree as ET
-# from xml.dom
-import csv
-from pprint import pprint
-import copy
 
 ##################################################################################################
 def read_json_file(json_file):
@@ -22,13 +16,14 @@ def read_json_file(json_file):
         s = text.decode(result['encoding'])
     json_data = json.loads(s)
     return json_data
-##################################################################################################
-def get_top_words_from_news_list_from_json_file(json_file,num_of_word):
+
+
+def get_top_words_from_news_list_from_json_file(json_file, num_of_word):
     with open (json_file, 'rb') as f:
         text = f.read()  # чтение байтовое
         result = chardet.detect(text)
-        s = text.decode(result['encoding'])
-    json_data = json.loads(s)
+        si = text.decode(result['encoding'])
+    json_data = json.loads(si)
     news_list = list(map(lambda x: x['title'] + ' ' + x['description'], [i for i in json_data['rss']['channel']['items']]))
     news_str = ''.join(news_list)
     news_list = news_str.split(" ")
