@@ -84,13 +84,13 @@ def find_dir(name_target_path_str, type_of_file_str):
 
 def get_file_list(target_path_str, type_of_file):
     start_dir = os.path.abspath(os.getcwd())
-    os.chdir(target_path_str)
-    file_list = os.listdir()
+    # os.chdir(target_path_str)
+    file_list = os.listdir(target_path_str)
     file_list = [i for i in file_list if i.endswith(type_of_file)]
-    # if file_list:
-    #     print('Target directory not found', file=sys.stderr)
-
-    os.chdir(start_dir)
+    if not file_list:
+        print('Target directory not found', file=sys.stderr)
+    print(file_list)
+    # os.chdir(start_dir)
     return file_list
 
 # ищет в файле нужную строку и возвращает:
@@ -129,7 +129,7 @@ def main():
         else:
             for f_name in file_founded_list:
                 print(f_name)
-        print('Всего:', count)
+        print('Всего: {}'.format(count))
 
 
 if __name__ == '__main__':

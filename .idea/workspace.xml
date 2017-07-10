@@ -38,8 +38,8 @@
       <file leaf-file-name="less_2_4_hw_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less_2_4_hw_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+            <state relative-caret-position="286">
+              <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -582,13 +582,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00024" summary="HackerRank task &quot;Alphabet Rangoli&quot; have done">
-      <created>1498661817393</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1498661817393</updated>
-    </task>
     <task id="LOCAL-00025" summary="Task &quot;Alphabet Rangoli&quot; have done other way">
       <created>1498720065204</created>
       <option name="number" value="00025" />
@@ -925,7 +918,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499604866794</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Update 2.4 homework">
+      <created>1499670202772</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1499670202773</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -948,7 +948,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16187595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22585924" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585924" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1024,7 +1024,6 @@
       <path value="$PROJECT_DIR$/BiblBot" />
       <path value="D:\Python_my\Python_netology_homework\BiblBot" />
     </ignored-roots>
-    <MESSAGE value="update the solve of homework_12 - update main() and update functions add_cmd(), move_cmd(), del_cmd()" />
     <MESSAGE value="lesson 2.4 homework_12 have done" />
     <MESSAGE value="lesson 2.4 homework_12 update" />
     <MESSAGE value="update minion_game" />
@@ -1049,7 +1048,8 @@
     <MESSAGE value="&quot;Set .add()&quot; is solved&#10;&quot;Set .discard(), .remove() &amp; .pop()&quot;  is solved" />
     <MESSAGE value="Update &quot;minion  game&quot;" />
     <MESSAGE value="Update 2.1 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 2.1 homework" />
+    <MESSAGE value="Update 2.4 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2.4 homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1375,8 +1375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less_2_4_hw_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        <state relative-caret-position="286">
+          <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
           <folding />
         </state>
       </provider>
