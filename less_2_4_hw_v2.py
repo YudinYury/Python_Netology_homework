@@ -87,8 +87,8 @@ def get_file_list(target_path_str, type_of_file):
     os.chdir(target_path_str)
     file_list = os.listdir()
     file_list = [i for i in file_list if i.endswith(type_of_file)]
-    if file_list:
-        print('Target directory not found', file=sys.stderr)
+    # if file_list:
+    #     print('Target directory not found', file=sys.stderr)
 
     os.chdir(start_dir)
     return file_list
