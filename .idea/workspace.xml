@@ -40,8 +40,8 @@
       <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
+            <state relative-caret-position="337">
+              <caret line="360" column="0" lean-forward="true" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
               <folding>
                 <element signature="e#7563#7575#0" expanded="true" />
                 <element signature="e#7621#7871#0" expanded="false" />
@@ -449,20 +449,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00032" summary="added English comments">
-      <created>1498986218832</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1498986218832</updated>
-    </task>
-    <task id="LOCAL-00033" summary="added English comments">
-      <created>1498992196758</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1498992196758</updated>
-    </task>
     <task id="LOCAL-00034" summary="added English comments">
       <created>1498992640298</created>
       <option name="number" value="00034" />
@@ -792,7 +778,21 @@
       <option name="project" value="LOCAL" />
       <updated>1499844134297</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="HackerRank tasks &quot;Check Subset&quot; and &quot;Check Strict Superset&quot; are solved">
+      <created>1499847374670</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1499847374671</updated>
+    </task>
+    <task id="LOCAL-00082" summary="HackerRank tasks &quot;Check Subset&quot; and &quot;Check Strict Superset&quot; are solved&#10;All Set tasks are solved">
+      <created>1499852063252</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1499852063252</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -893,8 +893,6 @@
       <path value="$PROJECT_DIR$/Python_course" />
       <path value="D:\Python_my\Python_netology_homework\Python_course" />
     </ignored-roots>
-    <MESSAGE value="&quot;Sum and Prod&quot; (Numpy) by HackerRank have done" />
-    <MESSAGE value="Update &quot;Sum and Prod&quot; (Numpy) by HackerRank (use special func for input)" />
     <MESSAGE value="&quot;Min and Max&quot; (Numpy) by HackerRank have done (use special func for input)" />
     <MESSAGE value="&quot;Mean, Var, and Std&quot; (Numpy) by HackerRank have done (use special func for input)" />
     <MESSAGE value="update &quot;Mean, Var, and Std&quot; (Numpy)" />
@@ -918,7 +916,9 @@
     <MESSAGE value="HackerRank tasks &quot;Set .union() Operation&quot; &#10;and &quot;Set .intersection() Operation&quot; &#10;and &quot;Set .difference() Operation&quot; &#10;and &quot;Set .symmetric_difference() Operation&quot; &#10;and &quot;Set Mutations&quot; &#10;are solved" />
     <MESSAGE value="update 3.2 homework" />
     <MESSAGE value="HackerRank tasks &quot;The Captain's Room&quot; is solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;The Captain's Room&quot; is solved" />
+    <MESSAGE value="HackerRank tasks &quot;Check Subset&quot; and &quot;Check Strict Superset&quot; are solved" />
+    <MESSAGE value="HackerRank tasks &quot;Check Subset&quot; and &quot;Check Strict Superset&quot; are solved&#10;All Set tasks are solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;Check Subset&quot; and &quot;Check Strict Superset&quot; are solved&#10;All Set tasks are solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1238,8 +1238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
+        <state relative-caret-position="337">
+          <caret line="360" column="0" lean-forward="true" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
           <folding>
             <element signature="e#7563#7575#0" expanded="true" />
             <element signature="e#7621#7871#0" expanded="false" />
