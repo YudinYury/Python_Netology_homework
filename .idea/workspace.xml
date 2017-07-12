@@ -40,21 +40,24 @@
       <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
               <folding>
-                <element signature="e#5864#5876#0" expanded="true" />
-                <element signature="e#5922#6172#0" expanded="false" />
-                <element signature="e#6231#6440#0" expanded="false" />
-                <element signature="e#6507#6889#0" expanded="false" />
-                <element signature="e#6927#7426#0" expanded="false" />
-                <element signature="e#7470#7626#0" expanded="false" />
-                <element signature="e#7698#7912#0" expanded="false" />
-                <element signature="e#7945#8472#0" expanded="false" />
-                <element signature="e#8536#8740#0" expanded="false" />
-                <element signature="e#8818#9042#0" expanded="false" />
-                <element signature="e#9116#9325#0" expanded="false" />
-                <element signature="e#9419#9638#0" expanded="false" />
+                <element signature="e#7563#7575#0" expanded="true" />
+                <element signature="e#7621#7871#0" expanded="false" />
+                <element signature="e#7930#8139#0" expanded="false" />
+                <element signature="e#8206#8588#0" expanded="false" />
+                <element signature="e#8626#9125#0" expanded="false" />
+                <element signature="e#9169#9325#0" expanded="false" />
+                <element signature="e#9397#9611#0" expanded="false" />
+                <element signature="e#9644#10171#0" expanded="false" />
+                <element signature="e#10235#10439#0" expanded="false" />
+                <element signature="e#10517#10741#0" expanded="false" />
+                <element signature="e#10815#11024#0" expanded="false" />
+                <element signature="e#11118#11337#0" expanded="false" />
+                <element signature="e#11391#12146#0" expanded="false" />
+                <element signature="e#12205#12549#0" expanded="false" />
+                <element signature="e#12601#12907#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -446,13 +449,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00031" summary="update minion_game">
-      <created>1498918718019</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1498918718019</updated>
-    </task>
     <task id="LOCAL-00032" summary="added English comments">
       <created>1498986218832</created>
       <option name="number" value="00032" />
@@ -789,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499695525335</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="HackerRank tasks &quot;The Captain's Room&quot; is solved">
+      <created>1499844134295</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1499844134297</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -890,7 +893,6 @@
       <path value="$PROJECT_DIR$/Python_course" />
       <path value="D:\Python_my\Python_netology_homework\Python_course" />
     </ignored-roots>
-    <MESSAGE value="&quot;Merge the Tools!&quot; by HackerRank have done" />
     <MESSAGE value="&quot;Sum and Prod&quot; (Numpy) by HackerRank have done" />
     <MESSAGE value="Update &quot;Sum and Prod&quot; (Numpy) by HackerRank (use special func for input)" />
     <MESSAGE value="&quot;Min and Max&quot; (Numpy) by HackerRank have done (use special func for input)" />
@@ -915,7 +917,8 @@
     <MESSAGE value="Update 2.5 homework" />
     <MESSAGE value="HackerRank tasks &quot;Set .union() Operation&quot; &#10;and &quot;Set .intersection() Operation&quot; &#10;and &quot;Set .difference() Operation&quot; &#10;and &quot;Set .symmetric_difference() Operation&quot; &#10;and &quot;Set Mutations&quot; &#10;are solved" />
     <MESSAGE value="update 3.2 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 3.2 homework" />
+    <MESSAGE value="HackerRank tasks &quot;The Captain's Room&quot; is solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;The Captain's Room&quot; is solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1235,21 +1238,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+        <state relative-caret-position="320">
+          <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
           <folding>
-            <element signature="e#5864#5876#0" expanded="true" />
-            <element signature="e#5922#6172#0" expanded="false" />
-            <element signature="e#6231#6440#0" expanded="false" />
-            <element signature="e#6507#6889#0" expanded="false" />
-            <element signature="e#6927#7426#0" expanded="false" />
-            <element signature="e#7470#7626#0" expanded="false" />
-            <element signature="e#7698#7912#0" expanded="false" />
-            <element signature="e#7945#8472#0" expanded="false" />
-            <element signature="e#8536#8740#0" expanded="false" />
-            <element signature="e#8818#9042#0" expanded="false" />
-            <element signature="e#9116#9325#0" expanded="false" />
-            <element signature="e#9419#9638#0" expanded="false" />
+            <element signature="e#7563#7575#0" expanded="true" />
+            <element signature="e#7621#7871#0" expanded="false" />
+            <element signature="e#7930#8139#0" expanded="false" />
+            <element signature="e#8206#8588#0" expanded="false" />
+            <element signature="e#8626#9125#0" expanded="false" />
+            <element signature="e#9169#9325#0" expanded="false" />
+            <element signature="e#9397#9611#0" expanded="false" />
+            <element signature="e#9644#10171#0" expanded="false" />
+            <element signature="e#10235#10439#0" expanded="false" />
+            <element signature="e#10517#10741#0" expanded="false" />
+            <element signature="e#10815#11024#0" expanded="false" />
+            <element signature="e#11118#11337#0" expanded="false" />
+            <element signature="e#11391#12146#0" expanded="false" />
+            <element signature="e#12205#12549#0" expanded="false" />
+            <element signature="e#12601#12907#0" expanded="false" />
           </folding>
         </state>
       </provider>
