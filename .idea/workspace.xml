@@ -18,18 +18,24 @@
       <file leaf-file-name="collections_challenges.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/collections_challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="407" column="0" lean-forward="false" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
               <folding>
-                <element signature="e#1688#1719#0" expanded="true" />
-                <element signature="e#1903#2002#0" expanded="false" />
-                <element signature="e#2036#2424#0" expanded="false" />
-                <element signature="e#2493#3573#0" expanded="false" />
-                <element signature="e#3052#3080#0" expanded="false" />
-                <element signature="e#3642#4534#0" expanded="false" />
-                <element signature="e#4415#4460#0" expanded="false" />
-                <element signature="e#4605#4696#0" expanded="false" />
-                <element signature="e#4735#5221#0" expanded="false" />
+                <element signature="e#3943#3974#0" expanded="true" />
+                <element signature="e#4178#4277#0" expanded="false" />
+                <element signature="e#4311#4699#0" expanded="false" />
+                <element signature="e#4768#5848#0" expanded="false" />
+                <element signature="e#5327#5355#0" expanded="false" />
+                <element signature="e#5917#6809#0" expanded="false" />
+                <element signature="e#6690#6735#0" expanded="false" />
+                <element signature="e#6880#6971#0" expanded="false" />
+                <element signature="e#7010#7496#0" expanded="false" />
+                <element signature="e#7551#7896#0" expanded="false" />
+                <element signature="e#8198#8709#0" expanded="false" />
+                <element signature="e#8769#9062#0" expanded="false" />
+                <element signature="e#9123#9213#0" expanded="false" />
+                <element signature="e#9254#11463#0" expanded="false" />
+                <element signature="e#11616#13154#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,8 +81,8 @@
       <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3876">
-              <caret line="360" column="0" lean-forward="false" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
+            <state relative-caret-position="3247">
+              <caret line="235" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
               <folding>
                 <element signature="e#7563#7575#0" expanded="true" />
                 <element signature="e#7621#7871#0" expanded="false" />
@@ -84,8 +90,6 @@
                 <element signature="e#8206#8588#0" expanded="false" />
                 <element signature="e#8626#9125#0" expanded="false" />
                 <element signature="e#9169#9325#0" expanded="false" />
-                <element signature="e#9397#9611#0" expanded="false" />
-                <element signature="e#9644#10171#0" expanded="false" />
                 <element signature="e#10235#10439#0" expanded="false" />
                 <element signature="e#10517#10741#0" expanded="false" />
                 <element signature="e#10815#11024#0" expanded="false" />
@@ -467,13 +471,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00042" summary="Update &quot;Sum and Prod&quot; (Numpy) by HackerRank (use special func for input)">
-      <created>1499087948633</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1499087948633</updated>
-    </task>
     <task id="LOCAL-00043" summary="&quot;Min and Max&quot; (Numpy) by HackerRank have done (use special func for input)">
       <created>1499088790445</created>
       <option name="number" value="00043" />
@@ -810,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500027010717</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="HackerRank tasks &quot;Word Order&quot; is solved">
+      <created>1500127730353</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1500127730358</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -831,16 +835,16 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22585924" sideWeight="0.5181543" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585924" sideWeight="0.48184568" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.48789713" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585924" sideWeight="0.48184568" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.48940998" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39770868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -849,7 +853,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="161" y="108" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -911,7 +915,6 @@
       <path value="$PROJECT_DIR$/Python_course" />
       <path value="D:\Python_my\Python_netology_homework\Python_course" />
     </ignored-roots>
-    <MESSAGE value="I begin make my first telegram-bot." />
     <MESSAGE value="First task from &quot;Introduction to Sets&quot; have done." />
     <MESSAGE value="&quot;Symmetric Difference&quot; by HackerRank is solved." />
     <MESSAGE value="&quot;No Idea&quot; by HackerRank is solved." />
@@ -936,7 +939,8 @@
     <MESSAGE value="HackerRank tasks &quot;collections.Counter()&quot; and &quot;DefaultDict Tutorial&quot; are solved" />
     <MESSAGE value="lesson 3.4 homework have done" />
     <MESSAGE value="HackerRank tasks &quot;Collections.namedtuple()&quot; is solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;Collections.namedtuple()&quot; is solved" />
+    <MESSAGE value="HackerRank tasks &quot;Word Order&quot; is solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;Word Order&quot; is solved" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1131,14 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Minion_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="148" column="68" lean-forward="false" selection-start-line="148" selection-start-column="68" selection-end-line="148" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3502">
@@ -1233,30 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="360" column="0" lean-forward="false" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
-          <folding>
-            <element signature="e#7563#7575#0" expanded="true" />
-            <element signature="e#7621#7871#0" expanded="false" />
-            <element signature="e#7930#8139#0" expanded="false" />
-            <element signature="e#8206#8588#0" expanded="false" />
-            <element signature="e#8626#9125#0" expanded="false" />
-            <element signature="e#9169#9325#0" expanded="false" />
-            <element signature="e#9397#9611#0" expanded="false" />
-            <element signature="e#9644#10171#0" expanded="false" />
-            <element signature="e#10235#10439#0" expanded="false" />
-            <element signature="e#10517#10741#0" expanded="false" />
-            <element signature="e#10815#11024#0" expanded="false" />
-            <element signature="e#11118#11337#0" expanded="false" />
-            <element signature="e#11391#12146#0" expanded="false" />
-            <element signature="e#12205#12549#0" expanded="false" />
-            <element signature="e#12601#12907#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/les22_hw1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1299,20 +1271,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Minion_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="148" column="68" lean-forward="false" selection-start-line="148" selection-start-column="68" selection-end-line="148" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3247">
+          <caret line="235" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding>
+            <element signature="e#7563#7575#0" expanded="true" />
+            <element signature="e#7621#7871#0" expanded="false" />
+            <element signature="e#7930#8139#0" expanded="false" />
+            <element signature="e#8206#8588#0" expanded="false" />
+            <element signature="e#8626#9125#0" expanded="false" />
+            <element signature="e#9169#9325#0" expanded="false" />
+            <element signature="e#10235#10439#0" expanded="false" />
+            <element signature="e#10517#10741#0" expanded="false" />
+            <element signature="e#10815#11024#0" expanded="false" />
+            <element signature="e#11118#11337#0" expanded="false" />
+            <element signature="e#11391#12146#0" expanded="false" />
+            <element signature="e#12205#12549#0" expanded="false" />
+            <element signature="e#12601#12907#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/collections_challenges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="407" column="0" lean-forward="false" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
           <folding>
-            <element signature="e#1688#1719#0" expanded="true" />
-            <element signature="e#1903#2002#0" expanded="false" />
-            <element signature="e#2036#2424#0" expanded="false" />
-            <element signature="e#2493#3573#0" expanded="false" />
-            <element signature="e#3052#3080#0" expanded="false" />
-            <element signature="e#3642#4534#0" expanded="false" />
-            <element signature="e#4415#4460#0" expanded="false" />
-            <element signature="e#4605#4696#0" expanded="false" />
-            <element signature="e#4735#5221#0" expanded="false" />
+            <element signature="e#3943#3974#0" expanded="true" />
+            <element signature="e#4178#4277#0" expanded="false" />
+            <element signature="e#4311#4699#0" expanded="false" />
+            <element signature="e#4768#5848#0" expanded="false" />
+            <element signature="e#5327#5355#0" expanded="false" />
+            <element signature="e#5917#6809#0" expanded="false" />
+            <element signature="e#6690#6735#0" expanded="false" />
+            <element signature="e#6880#6971#0" expanded="false" />
+            <element signature="e#7010#7496#0" expanded="false" />
+            <element signature="e#7551#7896#0" expanded="false" />
+            <element signature="e#8198#8709#0" expanded="false" />
+            <element signature="e#8769#9062#0" expanded="false" />
+            <element signature="e#9123#9213#0" expanded="false" />
+            <element signature="e#9254#11463#0" expanded="false" />
+            <element signature="e#11616#13154#0" expanded="false" />
           </folding>
         </state>
       </provider>
