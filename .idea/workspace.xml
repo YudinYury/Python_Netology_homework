@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,9 +18,11 @@
       <file leaf-file-name="python_functionals.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="983">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="337">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="e#1373#1403#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,7 +30,7 @@
       <file leaf-file-name="less_3_4_classwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less_3_4_classwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="357">
               <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="e#54#68#0" expanded="true" />
@@ -65,8 +67,8 @@
       <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3247">
-              <caret line="235" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+            <state relative-caret-position="281">
+              <caret line="306" column="56" lean-forward="false" selection-start-line="306" selection-start-column="17" selection-end-line="306" selection-end-column="56" />
               <folding>
                 <element signature="e#7563#7575#0" expanded="true" />
                 <element signature="e#7621#7871#0" expanded="false" />
@@ -74,13 +76,7 @@
                 <element signature="e#8206#8588#0" expanded="false" />
                 <element signature="e#8626#9125#0" expanded="false" />
                 <element signature="e#9169#9325#0" expanded="false" />
-                <element signature="e#10235#10439#0" expanded="false" />
-                <element signature="e#10517#10741#0" expanded="false" />
-                <element signature="e#10815#11024#0" expanded="false" />
-                <element signature="e#11118#11337#0" expanded="false" />
                 <element signature="e#11391#12146#0" expanded="false" />
-                <element signature="e#12205#12549#0" expanded="false" />
-                <element signature="e#12601#12907#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -480,13 +476,6 @@
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
     </task>
-    <task id="LOCAL-00045" summary="update &quot;Mean, Var, and Std&quot; (Numpy)">
-      <created>1499093186331</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1499093186331</updated>
-    </task>
     <task id="LOCAL-00046" summary="&quot;Dot and Cross&quot; (Numpy) by HackerRank have done">
       <created>1499094613638</created>
       <option name="number" value="00046" />
@@ -823,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500290875589</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="HackerRank tasks &quot;Validating Email Addresses With a Filter&quot; is solved">
+      <created>1500296624245</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1500296624245</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -924,7 +920,6 @@
       <path value="$PROJECT_DIR$/Python_course" />
       <path value="D:\Python_my\Python_netology_homework\Python_course" />
     </ignored-roots>
-    <MESSAGE value="&quot;No Idea&quot; by HackerRank is solved." />
     <MESSAGE value="update lesson 2_4 homework - new version v2" />
     <MESSAGE value="update lesson 2_5 homework - new version v2" />
     <MESSAGE value="lesson_3_1_classwork «3.1. Zen of Python - any developer should know PEP8 and PEP20»" />
@@ -949,7 +944,8 @@
     <MESSAGE value="HackerRank tasks &quot;Word Order&quot; is solved" />
     <MESSAGE value="HackerRank tasks &quot;Collections.deque()&quot; and &quot;Piling Up&quot; are solved" />
     <MESSAGE value="HackerRank tasks &quot;Most Common&quot; is solved&#10;All &quot;Collections&quot; tasks are solved ))" />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;Most Common&quot; is solved&#10;All &quot;Collections&quot; tasks are solved ))" />
+    <MESSAGE value="HackerRank tasks &quot;Validating Email Addresses With a Filter&quot; is solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;Validating Email Addresses With a Filter&quot; is solved" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1245,17 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_4_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#54#68#0" expanded="true" />
-            <element signature="e#189#294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less_3_4_hw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -1281,28 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3247">
-          <caret line="235" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding>
-            <element signature="e#7563#7575#0" expanded="true" />
-            <element signature="e#7621#7871#0" expanded="false" />
-            <element signature="e#7930#8139#0" expanded="false" />
-            <element signature="e#8206#8588#0" expanded="false" />
-            <element signature="e#8626#9125#0" expanded="false" />
-            <element signature="e#9169#9325#0" expanded="false" />
-            <element signature="e#10235#10439#0" expanded="false" />
-            <element signature="e#10517#10741#0" expanded="false" />
-            <element signature="e#10815#11024#0" expanded="false" />
-            <element signature="e#11118#11337#0" expanded="false" />
-            <element signature="e#11391#12146#0" expanded="false" />
-            <element signature="e#12205#12549#0" expanded="false" />
-            <element signature="e#12601#12907#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/collections_challenges.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1325,11 +1288,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_4_classwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#54#68#0" expanded="true" />
+            <element signature="e#189#294#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="306" column="56" lean-forward="false" selection-start-line="306" selection-start-column="17" selection-end-line="306" selection-end-column="56" />
+          <folding>
+            <element signature="e#7563#7575#0" expanded="true" />
+            <element signature="e#7621#7871#0" expanded="false" />
+            <element signature="e#7930#8139#0" expanded="false" />
+            <element signature="e#8206#8588#0" expanded="false" />
+            <element signature="e#8626#9125#0" expanded="false" />
+            <element signature="e#9169#9325#0" expanded="false" />
+            <element signature="e#11391#12146#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="983">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="337">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="e#1373#1403#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
