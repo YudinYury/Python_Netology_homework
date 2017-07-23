@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less_3_5_classwork_SOAP.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py" />
     </list>
@@ -15,11 +16,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="less_3_5_classwork_SOAP.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_3_5_classwork_SOAP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+              <folding>
+                <element signature="e#54#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less_3_4_hw.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_3_4_hw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding>
+                <element signature="e#54#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="python_functionals.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="103" column="24" lean-forward="true" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+            <state relative-caret-position="448">
+              <caret line="156" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding>
                 <element signature="e#2349#2379#0" expanded="true" />
                 <element signature="e#2505#2698#0" expanded="false" />
@@ -27,6 +52,9 @@
                 <element signature="e#2953#3168#0" expanded="false" />
                 <element signature="e#3187#3367#0" expanded="false" />
                 <element signature="e#3486#3829#0" expanded="false" />
+                <element signature="e#3924#4129#0" expanded="false" />
+                <element signature="e#4166#4319#0" expanded="false" />
+                <element signature="e#4347#5916#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -40,18 +68,6 @@
               <folding>
                 <element signature="e#54#68#0" expanded="true" />
                 <element signature="e#189#294#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="less_3_4_hw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_3_4_hw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-              <folding>
-                <element signature="e#54#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +88,8 @@
       <file leaf-file-name="Sets_Challenges.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="222" column="0" lean-forward="true" selection-start-line="221" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+            <state relative-caret-position="3655">
+              <caret line="222" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
               <folding>
                 <element signature="e#7563#7575#0" expanded="true" />
                 <element signature="e#7621#7871#0" expanded="false" />
@@ -138,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/les15_hw2.py" />
         <option value="$PROJECT_DIR$/les15_hw1.py" />
         <option value="$PROJECT_DIR$/les15_hw3.py" />
         <option value="$PROJECT_DIR$/less_1_6_classwork.py" />
@@ -188,6 +203,7 @@
         <option value="$PROJECT_DIR$/less_3_4_classwork.py" />
         <option value="$PROJECT_DIR$/less_3_4_hw.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/collections_challenges.py" />
+        <option value="$PROJECT_DIR$/less_3_5_classwork_SOAP.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py" />
       </list>
     </option>
@@ -214,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +262,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,8 +271,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python_my\Question_by_HackerRank" />
       <recent name="D:\Python_my\Python_netology_homework" />
+      <recent name="D:\Python_my\Question_by_HackerRank" />
       <recent name="D:\Python_my\Python_Question_by_HackerRank" />
     </key>
   </component>
@@ -273,24 +289,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.python_functionals">
-    <configuration default="false" name="less_3_3_hw" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_netology_homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_3_3_hw.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="less_3_4_classwork" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,6 +356,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Question_by_HackerRank" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="less_3_5_classwork_SOAP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_netology_homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_3_5_classwork_SOAP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,19 +463,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.les21_hw1v2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.less_3_3_hw" />
-      <item index="2" class="java.lang.String" itemvalue="Python.less_3_4_classwork" />
-      <item index="3" class="java.lang.String" itemvalue="Python.collections_challenges" />
-      <item index="4" class="java.lang.String" itemvalue="Python.less_3_4_hw" />
-      <item index="5" class="java.lang.String" itemvalue="Python.python_functionals" />
+      <item index="1" class="java.lang.String" itemvalue="Python.less_3_4_classwork" />
+      <item index="2" class="java.lang.String" itemvalue="Python.collections_challenges" />
+      <item index="3" class="java.lang.String" itemvalue="Python.less_3_4_hw" />
+      <item index="4" class="java.lang.String" itemvalue="Python.python_functionals" />
+      <item index="5" class="java.lang.String" itemvalue="Python.less_3_5_classwork_SOAP" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.python_functionals" />
-        <item index="1" class="java.lang.String" itemvalue="Python.collections_challenges" />
-        <item index="2" class="java.lang.String" itemvalue="Python.less_3_4_hw" />
-        <item index="3" class="java.lang.String" itemvalue="Python.less_3_4_classwork" />
-        <item index="4" class="java.lang.String" itemvalue="Python.less_3_3_hw" />
+        <item index="1" class="java.lang.String" itemvalue="Python.less_3_5_classwork_SOAP" />
+        <item index="2" class="java.lang.String" itemvalue="Python.collections_challenges" />
+        <item index="3" class="java.lang.String" itemvalue="Python.less_3_4_hw" />
+        <item index="4" class="java.lang.String" itemvalue="Python.less_3_4_classwork" />
       </list>
     </recent_temporary>
   </component>
@@ -476,13 +492,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
-    </task>
-    <task id="LOCAL-00048" summary="update lesson_2_1 homework">
-      <created>1499154558026</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1499154558026</updated>
     </task>
     <task id="LOCAL-00049" summary="update lesson_2_1 homework">
       <created>1499154603341</created>
@@ -820,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500305054535</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="HackerRank task &quot;Matrix Script&quot; is solved">
+      <created>1500380640328</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1500380640329</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -841,7 +857,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18835099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22585924" sideWeight="0.52118003" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.48789713" order="10" side_tool="false" content_ui="tabs" />
@@ -921,7 +937,6 @@
       <path value="$PROJECT_DIR$/Python_course" />
       <path value="D:\Python_my\Python_netology_homework\Python_course" />
     </ignored-roots>
-    <MESSAGE value="update lesson 2_5 homework - new version v2" />
     <MESSAGE value="lesson_3_1_classwork «3.1. Zen of Python - any developer should know PEP8 and PEP20»" />
     <MESSAGE value="&quot;Set .add()&quot; is solved&#10;&quot;Set .discard(), .remove() &amp; .pop()&quot;  is solved" />
     <MESSAGE value="Update &quot;minion  game&quot;" />
@@ -946,7 +961,8 @@
     <MESSAGE value="HackerRank tasks &quot;Most Common&quot; is solved&#10;All &quot;Collections&quot; tasks are solved ))" />
     <MESSAGE value="HackerRank tasks &quot;Validating Email Addresses With a Filter&quot; is solved" />
     <MESSAGE value="HackerRank tasks &quot;Reduce Function&quot; is solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="HackerRank tasks &quot;Reduce Function&quot; is solved" />
+    <MESSAGE value="HackerRank task &quot;Matrix Script&quot; is solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="HackerRank task &quot;Matrix Script&quot; is solved" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -963,13 +979,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/les16_hw_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/les15_hw3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
@@ -1235,16 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_4_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="e#54#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less_3_3_hw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-295">
@@ -1282,6 +1281,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1922">
+          <caret line="208" column="35" lean-forward="false" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="222" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+          <folding>
+            <element signature="e#7563#7575#0" expanded="true" />
+            <element signature="e#7621#7871#0" expanded="false" />
+            <element signature="e#11391#12146#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/less_3_4_classwork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -1293,32 +1311,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Text_Wrap.py">
+    <entry file="file://$PROJECT_DIR$/less_3_4_hw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1922">
-          <caret line="208" column="35" lean-forward="false" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
+        <state relative-caret-position="782">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
-            <element signature="e#3520#3535#0" expanded="false" />
+            <element signature="e#54#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
+    <entry file="file://$PROJECT_DIR$/less_3_5_classwork_SOAP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="222" column="0" lean-forward="true" selection-start-line="221" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
-            <element signature="e#7563#7575#0" expanded="true" />
-            <element signature="e#7621#7871#0" expanded="false" />
-            <element signature="e#11391#12146#0" expanded="false" />
+            <element signature="e#54#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/python_functionals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="103" column="24" lean-forward="true" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+        <state relative-caret-position="448">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding>
             <element signature="e#2349#2379#0" expanded="true" />
             <element signature="e#2505#2698#0" expanded="false" />
@@ -1326,6 +1342,9 @@
             <element signature="e#2953#3168#0" expanded="false" />
             <element signature="e#3187#3367#0" expanded="false" />
             <element signature="e#3486#3829#0" expanded="false" />
+            <element signature="e#3924#4129#0" expanded="false" />
+            <element signature="e#4166#4319#0" expanded="false" />
+            <element signature="e#4347#5916#0" expanded="false" />
           </folding>
         </state>
       </provider>
