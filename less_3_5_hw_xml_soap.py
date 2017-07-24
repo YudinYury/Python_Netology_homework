@@ -130,11 +130,5 @@ def main():
     print('Total travel len = {} Kilometers'.format(round(travel_len, 2)))
 
 
-
-    # создаем JSON-файл с рецептами - один раз
-    # with open('recipes.json','w') as cook_file: # , encoding='utf-8'
-    #     json.dump(txt_cook_book, cook_file, ensure_ascii=False)
-
-
 if __name__ == '__main__':
     main()
