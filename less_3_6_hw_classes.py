@@ -5,14 +5,13 @@
 import chardet
 import os
 from urllib.parse import urlencode
-import osa
-import re
-import requests
-from xml.etree.ElementTree import fromstring, ElementTree
+
+
+# from xml.etree.ElementTree import fromstring, ElementTree
 
 
 class Animal:
-    my_name = 'Animal'
+    my_type = 'Animal'
     area = 'Earth'
     prefered_food = 'food'
     sound = 'aaaaaaaaaaaaaaa'
@@ -25,17 +24,18 @@ class Animal:
         print('I can speak "{}"'.format(self.sound))
 
     def about(self):
-        print('I am {}. I live in {}. I eat {}.'.format(self.my_name, self.area, self.prefered_food))
+        print('I am {}. I live in {}. I eat {}.'.format(self.my_type, self.area, self.prefered_food))
 
 
 class Hoofed(Animal):  # Копытное
     different = 'hooves'
+    my_type = 'Hoofed'
+    area = 'a land'
+    prefered_food = 'plants'
+    sound = 'ooooooooooooooo'
 
     def __init__(self):
-        self.my_name = 'Hoofed'
-        self.area = 'a land'
-        self.prefered_food = 'plants'
-        self.sound = 'ooooooooooooooo'
+        pass
 
     def about(self):
         super().about()
@@ -43,57 +43,81 @@ class Hoofed(Animal):  # Копытное
 
 
 class Cow(Hoofed):  # Корова
-    def __init__(self):
-        self.my_name = 'Cow'
-        self.area = 'a meadow'
-        self.prefered_food = 'fresh plants'
-        self.sound = 'Muuuuu'
-        self.different = 'horns'
-        self.useful = 'I give a milk'
+    my_type = 'Cow'
+    area = 'a meadow'
+    prefered_food = 'fresh plants'
+    sound = 'Muuuuu'
+    different = 'horns'
+    useful = 'I give a milk'
+
+    def __init__(self, name=''):
+        self.my_name = name
 
     def about(self):
+        if len(self.my_name):
+            print('My name is {}'.format(self.my_name))
+        else:
+            print('My name is ... oops. Parents forgot to give me a name.')
         super().about()
         print('I am useful because {}.'.format(self.useful))
 
 
 class Goat(Hoofed):  # Коза
-    def __init__(self):
-        self.my_name = 'Goat'
-        self.area = 'a meadow'
-        self.prefered_food = 'fresh plants'
-        self.sound = 'baaa'
-        self.different = 'small horns'
-        self.useful = 'I give a dietary milk'
+    my_type = 'Goat'
+    area = 'a meadow'
+    prefered_food = 'fresh plants'
+    sound = 'baaa'
+    different = 'small horns'
+    useful = 'I give a dietary milk'
+
+    def __init__(self, name=''):
+        self.my_name = name
 
     def about(self):
+        if len(self.my_name):
+            print('My name is {}'.format(self.my_name))
+        else:
+            print('My name is ... oops. Parents forgot to give me a name.')
         super().about()
         print('I am useful because {}.'.format(self.useful))
 
 
 class Sheep(Hoofed):  # Овца
-    def __init__(self):
-        self.my_name = 'Sheep'
-        self.area = 'a highland'
-        self.prefered_food = 'fresh plants'
-        self.sound = 'baaa'
-        self.different = 'thick coat'
-        self.useful = 'I give a wool'
+    my_type = 'Sheep'
+    area = 'a highland'
+    prefered_food = 'fresh plants'
+    sound = 'baaa'
+    different = 'thick coat'
+    useful = 'I give a wool'
+
+    def __init__(self, name=''):
+        self.my_name = name
 
     def about(self):
+        if len(self.my_name):
+            print('My name is {}'.format(self.my_name))
+        else:
+            print('My name is ... oops. Parents forgot to give me a name.')
         super().about()
         print('I am useful because {}.'.format(self.useful))
 
 
 class Pig(Hoofed):  # Свинья
-    def __init__(self):
-        self.my_name = 'Pig'
-        self.area = 'a village'
-        self.prefered_food = 'any food'
-        self.sound = 'piggy-piggy'
-        self.different = 'round ass'
-        self.useful = 'I give a bacon'
+    my_type = 'Pig'
+    area = 'a village'
+    prefered_food = 'any food'
+    sound = 'piggy-piggy'
+    different = 'round ass'
+    useful = 'I give a bacon'
+
+    def __init__(self, name=''):
+        self.my_name = name
 
     def about(self):
+        if len(self.my_name):
+            print('My name is {}'.format(self.my_name))
+        else:
+            print('My name is ... oops. Parents forgot to give me a name.')
         super().about()
         print('I am useful because {}.'.format(self.useful))
 
@@ -101,12 +125,13 @@ class Pig(Hoofed):  # Свинья
 class Bird(Animal):
     different = 'wings'
     useful = None
+    my_type = 'Bird'
+    area = 'a sky'
+    prefered_food = 'seeds'
+    sound = 'hr-hr-hr-hr-hr-hr-hr-hr-hr-hr'
 
     def __init__(self):
-        self.my_name = 'Bird'
-        self.area = 'a sky'
-        self.prefered_food = 'seeds'
-        self.sound = 'hr-hr-hr-hr-hr-hr-hr-hr-hr-hr'
+        pass
 
     def about(self):
         super().about()
@@ -114,30 +139,58 @@ class Bird(Animal):
 
 
 class Duck(Bird):  #
-    def __init__(self):
-        self.my_name = 'Duck'
-        self.area = 'a lake'
-        self.prefered_food = 'worms'
-        self.sound = 'quack quack'
-        self.useful = 'I give a dietary meat'
+    my_type = 'Duck'
+    area = 'a lake'
+    prefered_food = 'worms'
+    sound = 'quack quack'
+    useful = 'I give a dietary meat'
 
+    def __init__(self, name=''):
+        self.my_name = name
+
+    def about(self):
+        if len(self.my_name):
+            print('My name is {}'.format(self.my_name))
+        else:
+            print('My name is ... oops. Parents forgot to give me a name.')
+        super().about()
+        print('I am useful because {}.'.format(self.useful))
 
 class Chicken(Bird):  #
-    def __init__(self):
-        self.my_name = 'Chicken'
-        self.area = 'about house'
-        self.prefered_food = 'seeds and worms'
-        self.sound = 'Cock-a-rat'
-        self.useful = 'I give an egg'
+    my_type = 'Chicken'
+    area = 'about house'
+    prefered_food = 'seeds and worms'
+    sound = 'Cock-a-rat'
+    useful = 'I give an egg'
 
+    def __init__(self, name=''):
+        self.my_name = name
+
+    def about(self):
+        if len(self.my_name):
+            print('My name is {}'.format(self.my_name))
+        else:
+            print('My name is ... oops. Parents forgot to give me a name.')
+        super().about()
+        print('I am useful because {}.'.format(self.useful))
 
 class Goose(Bird):  #
-    def __init__(self):
-        self.my_name = 'Goose'
-        self.area = 'a lake'
-        self.prefered_food = 'seeds and worms'
-        self.sound = 'quoock quoock'
-        self.useful = 'I give a fluff'
+    my_type = 'Goose'
+    area = 'a lake'
+    prefered_food = 'seeds and worms'
+    sound = 'quoock quoock'
+    useful = 'I give a fluff'
+
+    def __init__(self, name=''):
+        self.my_name = name
+
+    def about(self):
+        if len(self.my_name):
+            print('My name is {}'.format(self.my_name))
+        else:
+            print('My name is ... oops. Parents forgot to give me a name.')
+        super().about()
+        print('I am useful because {}.'.format(self.useful))
 
 
 def main():
@@ -150,7 +203,7 @@ def main():
     hoofed.speak()
     print()
 
-    cow = Cow()
+    cow = Cow('Дуня')
     cow.about()
     cow.speak()
     print()
