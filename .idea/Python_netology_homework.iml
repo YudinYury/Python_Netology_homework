@@ -4,12 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6.1 (D:\Python36\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Python_Question_by_HackerRank" />
     <orderEntry type="module" module-name="Question_by_HackerRank" />
     <orderEntry type="module" module-name="Python_course" />
-    <orderEntry type="module" module-name="BiblBot" />
-    <orderEntry type="module" module-name="BiblBot" />
-    <orderEntry type="module" module-name="Bible_bot" />
     <orderEntry type="module" module-name="BiblBot" />
   </component>
   <component name="TestRunnerService">
