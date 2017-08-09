@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="&quot;Re.start() &amp; Re.end()&quot; is solved">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python_netology_homework.iml" afterPath="$PROJECT_DIR$/.idea/Python_netology_homework.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="82fa286a-2bab-4158-b688-e1e14f76ace4" name="Default" comment="lesson_4_2_Homework &quot;Data visualization&quot;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less_4_2_hw_2_visualization.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less_4_2_hw_3_visualization.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Question_by_HackerRank/Regex and Parsing Challenges.py" afterPath="$PROJECT_DIR$/../Question_by_HackerRank/Regex and Parsing Challenges.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,66 +15,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="less_3_6_hw_classes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_3_6_hw_classes.py">
+      <file leaf-file-name="less_4_2_hw_1_visualization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_2_hw_1_visualization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="102">
+              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding>
-                <element signature="e#39#53#0" expanded="true" />
+                <element signature="e#50#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Regex and Parsing Challenges.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Regex and Parsing Challenges.py">
+      <file leaf-file-name="less_4_2_hw_3_visualization.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less_4_2_hw_3_visualization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="180" column="14" lean-forward="true" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+            <state relative-caret-position="458">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#2534#2727#0" expanded="false" />
-                <element signature="e#2764#3419#0" expanded="false" />
-                <element signature="e#3455#3628#0" expanded="false" />
+                <element signature="e#50#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less_3_7_classwork_API_Yandex.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_3_7_classwork_API_Yandex.py">
+      <file leaf-file-name="less_4_2_hw_2_visualization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_2_hw_2_visualization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="78" />
               <folding>
-                <element signature="e#55#69#0" expanded="true" />
-                <element signature="e#530#1217#0" expanded="false" />
-                <element signature="e#2160#2185#0" expanded="false" />
-                <element signature="e#5003#5053#0" expanded="false" />
+                <element signature="e#50#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less_3_7_hw_API_Yandex.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_3_7_hw_API_Yandex.py">
+      <file leaf-file-name="less_4_1_classwork_merge_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_1_classwork_merge_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="798">
+              <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+              <folding>
+                <element signature="e#54#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less_4_1_classwork_for_dig_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_1_classwork_for_dig_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding>
+                <element signature="e#54#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less_4_2_classwork_visualization_scatter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_2_classwork_visualization_scatter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#51#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less_4_1_hw.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_1_hw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="e#54#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less_4_2_classwork_visualization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_2_classwork_visualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#51#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less_4_2_classwork_visualization_bokeh.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_4_2_classwork_visualization_bokeh.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less_3_4_classwork.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less_3_4_classwork.py">
+      <file leaf-file-name="less_3_3_hw.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less_3_3_hw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding>
-                <element signature="e#54#68#0" expanded="true" />
-                <element signature="e#189#294#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="1513">
+              <caret line="91" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,24 +134,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Question_by_HackerRank" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/less_2_2_classwork.py" />
-        <option value="$PROJECT_DIR$/Python Question by HackerRank.py" />
-        <option value="$PROJECT_DIR$/../Question_by_HackerRank/Nested Lists.py" />
-        <option value="$PROJECT_DIR$/../Question_by_HackerRank/Finding_the_percentage.py" />
-        <option value="$PROJECT_DIR$/les22_hw1.py" />
-        <option value="$PROJECT_DIR$/../Question_by_HackerRank/List_Comprehensions.py" />
-        <option value="$PROJECT_DIR$/less_2_3_hw.py" />
-        <option value="$PROJECT_DIR$/les21_hw1.py" />
-        <option value="$PROJECT_DIR$/../Question_by_HackerRank/Whats_Your_Name.py" />
-        <option value="$PROJECT_DIR$/les14_hw12.py" />
-        <option value="$PROJECT_DIR$/les14_hw12v2.py" />
-        <option value="$PROJECT_DIR$/less_2_4_classwork.py" />
-        <option value="$PROJECT_DIR$/less_2_3_classwork.py" />
         <option value="$PROJECT_DIR$/less_2_5_classwork.py" />
         <option value="$PROJECT_DIR$/less_2_5_hw_1.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/Merge_the_Tools.py" />
@@ -139,6 +177,19 @@
         <option value="$PROJECT_DIR$/less_3_6_hw_classes.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/xml.py" />
         <option value="$PROJECT_DIR$/../Question_by_HackerRank/Regex and Parsing Challenges.py" />
+        <option value="$PROJECT_DIR$/less_3_8_classwork_patterns.py" />
+        <option value="$PROJECT_DIR$/less_3_8_classwork_user_command.py" />
+        <option value="$PROJECT_DIR$/less_3_8_classwork_context_manager.py" />
+        <option value="$PROJECT_DIR$/less_3_8_classwork_caching.py" />
+        <option value="$PROJECT_DIR$/less_4_1_classwork_merge_data.py" />
+        <option value="$PROJECT_DIR$/less_4_1_hw.py" />
+        <option value="$PROJECT_DIR$/less_4_2_classwork_visualization.py" />
+        <option value="$PROJECT_DIR$/less_4_2_classwork_visualization_scatter.py" />
+        <option value="$PROJECT_DIR$/less_4_2_classwork_visualization_bokeh.py" />
+        <option value="$PROJECT_DIR$/less_4_2_hw_1_visualization.py" />
+        <option value="$PROJECT_DIR$/less_4_2_hw_2_visualization.py" />
+        <option value="$PROJECT_DIR$/less_4_1_classwork_for_dig_data.py" />
+        <option value="$PROJECT_DIR$/less_4_2_hw_3_visualization.py" />
       </list>
     </option>
   </component>
@@ -164,13 +215,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -192,41 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Regex and Parsing Challenges">
-    <configuration name="Built-Ins" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Question_by_HackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Question_by_HackerRank" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/Built-Ins.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Regex and Parsing Challenges" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Question_by_HackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Question_by_HackerRank" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/Regex and Parsing Challenges.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.less_4_2_hw_1_visualization">
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,7 +322,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="less_3_6_hw_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="less_4_1_hw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -317,12 +334,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_netology_homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_3_6_hw_classes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_4_1_hw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="less_3_7_classwork_API_Yandex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="less_4_2_classwork_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -334,43 +351,77 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_netology_homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_3_7_classwork_API_Yandex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_4_2_classwork_visualization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="less_4_2_classwork_visualization_bokeh" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Question_by_HackerRank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Question_by_HackerRank" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Question_by_HackerRank/xml.py" />
+      <module name="Python_netology_homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_4_2_classwork_visualization_bokeh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="less_4_2_classwork_visualization_scatter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_netology_homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_4_2_classwork_visualization_scatter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="less_4_2_hw_1_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_netology_homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less_4_2_hw_1_visualization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.les21_hw1v2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Built-Ins" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Regex and Parsing Challenges" />
-      <item index="3" class="java.lang.String" itemvalue="Python.less_3_7_classwork_API_Yandex" />
-      <item index="4" class="java.lang.String" itemvalue="Python.less_3_6_hw_classes" />
-      <item index="5" class="java.lang.String" itemvalue="Python.xml" />
+      <item index="1" class="java.lang.String" itemvalue="Python.less_4_1_hw" />
+      <item index="2" class="java.lang.String" itemvalue="Python.less_4_2_classwork_visualization" />
+      <item index="3" class="java.lang.String" itemvalue="Python.less_4_2_classwork_visualization_scatter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.less_4_2_classwork_visualization_bokeh" />
+      <item index="5" class="java.lang.String" itemvalue="Python.less_4_2_hw_1_visualization" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Regex and Parsing Challenges" />
-        <item index="1" class="java.lang.String" itemvalue="Python.xml" />
-        <item index="2" class="java.lang.String" itemvalue="Python.less_3_6_hw_classes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.less_3_7_classwork_API_Yandex" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Built-Ins" />
+        <item index="0" class="java.lang.String" itemvalue="Python.less_4_2_hw_1_visualization" />
+        <item index="1" class="java.lang.String" itemvalue="Python.less_4_2_classwork_visualization_bokeh" />
+        <item index="2" class="java.lang.String" itemvalue="Python.less_4_2_classwork_visualization_scatter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.less_4_2_classwork_visualization" />
+        <item index="4" class="java.lang.String" itemvalue="Python.less_4_1_hw" />
       </list>
     </recent_temporary>
   </component>
@@ -387,90 +438,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497195069523</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Update 2.1 homework">
-      <created>1499603633050</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1499603633050</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Update 2.1 homework">
-      <created>1499603867962</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1499603867962</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Update 2.1 homework">
-      <created>1499604466614</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1499604466614</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Update 2.1 homework">
-      <created>1499604599133</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1499604599133</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Update 2.1 homework">
-      <created>1499604866794</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1499604866794</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Update 2.4 homework">
-      <created>1499670202772</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1499670202773</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Update 2.4 homework">
-      <created>1499671013776</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1499671013776</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Update 3.2 classwork">
-      <created>1499675671229</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1499675671229</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Update 3.2 homework">
-      <created>1499679414305</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1499679414306</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Update 2.5 homework">
-      <created>1499680099612</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1499680099612</updated>
-    </task>
-    <task id="LOCAL-00078" summary="HackerRank tasks &quot;Set .union() Operation&quot; &#10;and &quot;Set .intersection() Operation&quot; &#10;and &quot;Set .difference() Operation&quot; &#10;and &quot;Set .symmetric_difference() Operation&quot; &#10;and &quot;Set Mutations&quot; &#10;are solved">
-      <created>1499684693093</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1499684693093</updated>
-    </task>
-    <task id="LOCAL-00079" summary="update 3.2 homework">
-      <created>1499695525335</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1499695525335</updated>
     </task>
     <task id="LOCAL-00080" summary="HackerRank tasks &quot;The Captain's Room&quot; is solved">
       <created>1499844134295</created>
@@ -731,7 +698,91 @@
       <option name="project" value="LOCAL" />
       <updated>1501417561068</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="&quot;Re.start() &amp; Re.end()&quot; is solved">
+      <created>1501487775789</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1501487775790</updated>
+    </task>
+    <task id="LOCAL-00118" summary="&quot;Regex Substitution&quot; is solved">
+      <created>1501671447215</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1501671447215</updated>
+    </task>
+    <task id="LOCAL-00119" summary="&quot;Validating Roman Numerals&quot; is solved">
+      <created>1501865061137</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1501865061137</updated>
+    </task>
+    <task id="LOCAL-00120" summary="&quot;Validating phone numbers&quot; is solved">
+      <created>1501997274475</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1501997274476</updated>
+    </task>
+    <task id="LOCAL-00121" summary="&quot;Validating and Parsing Email Addresses&quot; is solved">
+      <created>1502017440306</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1502017440307</updated>
+    </task>
+    <task id="LOCAL-00122" summary="lesson_3_8_Classwork &quot;Patterns&quot;">
+      <created>1502035487684</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1502035487684</updated>
+    </task>
+    <task id="LOCAL-00123" summary="lesson_4_1_Classwork">
+      <created>1502037358767</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1502037358767</updated>
+    </task>
+    <task id="LOCAL-00124" summary="lesson_4_1_Classwork">
+      <created>1502047529079</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1502047529079</updated>
+    </task>
+    <task id="LOCAL-00125" summary="lesson_4_1_Classwork">
+      <created>1502047805640</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1502047805640</updated>
+    </task>
+    <task id="LOCAL-00126" summary="lesson_4_1_homework">
+      <created>1502055704598</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1502055704598</updated>
+    </task>
+    <task id="LOCAL-00127" summary="lesson_4_2_Classwork &quot;Data visualization&quot;">
+      <created>1502273561365</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1502273561367</updated>
+    </task>
+    <task id="LOCAL-00128" summary="lesson_4_2_Homework &quot;Data visualization&quot;">
+      <created>1502283904981</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1502283904981</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -739,7 +790,7 @@
       <configuration name="Unittests in less_2_3_classwork.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -750,11 +801,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24281392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27168575" sideWeight="0.52723145" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.48789713" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27168575" sideWeight="0.47276855" order="2" side_tool="false" content_ui="tabs" />
@@ -770,6 +821,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="161" y="108" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -832,15 +884,6 @@
       <path value="$PROJECT_DIR$/Python_course" />
       <path value="D:\Python_my\Python_netology_homework\Python_course" />
     </ignored-roots>
-    <MESSAGE value="HackerRank tasks &quot;Collections.namedtuple()&quot; is solved" />
-    <MESSAGE value="HackerRank tasks &quot;Word Order&quot; is solved" />
-    <MESSAGE value="HackerRank tasks &quot;Collections.deque()&quot; and &quot;Piling Up&quot; are solved" />
-    <MESSAGE value="HackerRank tasks &quot;Most Common&quot; is solved&#10;All &quot;Collections&quot; tasks are solved ))" />
-    <MESSAGE value="HackerRank tasks &quot;Validating Email Addresses With a Filter&quot; is solved" />
-    <MESSAGE value="HackerRank tasks &quot;Reduce Function&quot; is solved" />
-    <MESSAGE value="HackerRank task &quot;Matrix Script&quot; is solved" />
-    <MESSAGE value="all the Python Functionals Challenges are solved" />
-    <MESSAGE value="lesson_3_5_classwork «API, xml/soap»" />
     <MESSAGE value="lesson_3_5_homework have done" />
     <MESSAGE value="lesson_3_5_classwork &quot;Classes&quot;" />
     <MESSAGE value="homework 3.6 &quot;Classes&quot; have done" />
@@ -857,7 +900,16 @@
     <MESSAGE value="&quot;Group(), Groups() &amp; Groupdict()&quot; is solved" />
     <MESSAGE value="&quot;Re.findall() &amp; Re.finditer()&quot; is solved" />
     <MESSAGE value="&quot;Re.start() &amp; Re.end()&quot; is solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Re.start() &amp; Re.end()&quot; is solved" />
+    <MESSAGE value="&quot;Regex Substitution&quot; is solved" />
+    <MESSAGE value="&quot;Validating Roman Numerals&quot; is solved" />
+    <MESSAGE value="&quot;Validating phone numbers&quot; is solved" />
+    <MESSAGE value="&quot;Validating and Parsing Email Addresses&quot; is solved" />
+    <MESSAGE value="lesson_3_8_Classwork &quot;Patterns&quot;" />
+    <MESSAGE value="lesson_4_1_Classwork" />
+    <MESSAGE value="lesson_4_1_homework" />
+    <MESSAGE value="lesson_4_2_Classwork &quot;Data visualization&quot;" />
+    <MESSAGE value="lesson_4_2_Homework &quot;Data visualization&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_4_2_Homework &quot;Data visualization&quot;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -870,96 +922,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less_2_3_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_4_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_5_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BiblBot/bibl_bot.py" />
-    <entry file="file://$PROJECT_DIR$/../BiblBot/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BiblBot/config.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_1_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_4_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_2_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BiblBot/bibl_bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_5_hw_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="92" column="41" lean-forward="false" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/les21_hw1v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_2_classwork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1009,24 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_2_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less_2_4_hw_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="77" column="52" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_2_5_hw_1v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="56" column="104" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="104" />
         </state>
       </provider>
     </entry>
@@ -1135,13 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_4_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Sets_Challenges.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -1163,19 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_7_classwork_API_Yandex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding>
-            <element signature="e#55#69#0" expanded="true" />
-            <element signature="e#530#1217#0" expanded="false" />
-            <element signature="e#2160#2185#0" expanded="false" />
-            <element signature="e#5003#5053#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/xml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1194,17 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#54#68#0" expanded="true" />
-            <element signature="e#189#294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_3_hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,24 +1144,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less_3_6_hw_classes.py">
+    <entry file="file://$PROJECT_DIR$/less_3_8_classwork_caching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="12" />
-          <folding>
-            <element signature="e#39#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_8_classwork_context_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_8_classwork_user_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_8_classwork_patterns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="28" column="90" lean-forward="false" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_7_classwork_API_Yandex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Question_by_HackerRank/Regex and Parsing Challenges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="180" column="14" lean-forward="true" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+        <state relative-caret-position="5355">
+          <caret line="403" column="26" lean-forward="false" selection-start-line="403" selection-start-column="26" selection-end-line="403" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_6_hw_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_2_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_2_5_hw_1v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="56" column="104" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_4_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_3_3_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_2_classwork_visualization_bokeh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_2_classwork_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#2534#2727#0" expanded="false" />
-            <element signature="e#2764#3419#0" expanded="false" />
-            <element signature="e#3455#3628#0" expanded="false" />
+            <element signature="e#51#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_1_hw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#54#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_2_classwork_visualization_scatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_2_hw_2_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="78" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_1_classwork_merge_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="55" column="54" lean-forward="false" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding>
+            <element signature="e#54#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_1_classwork_for_dig_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="e#54#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_2_hw_1_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less_4_2_hw_3_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
