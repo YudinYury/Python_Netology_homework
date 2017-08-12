@@ -11,7 +11,6 @@ source_dir_path = os.path.normpath(os.path.abspath(source_path))
 
 
 def download_year_data(year):
-    y = year
     source_file = os.path.normpath(os.path.join(source_dir_path, 'yob{}.txt'.format(year)))
     year_data = pd.read_csv(source_file, names=['Name', 'Gender', 'Count'])
     # year_data['Year'] = year_data.apply(lambda x: int(year), axis=1)
