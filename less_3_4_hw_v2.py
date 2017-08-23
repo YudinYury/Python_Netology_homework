@@ -81,13 +81,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-
-    # vk_first_request = 'https://oauth.vk.com/authorize?client_id=' + auth_data['app_id'] + \
-    #                    '&display=page&redirect_uri=' + auth_data['redirect_url'] + \
-    #                    '&scope=friends&' \
-    #                    'response_type=' + auth_data['response_type'] + '&v=' + vk_version
-    # print(vk_first_request)
-
-    # vkapi = vk.API(app_id, login, password)
-    # vkapi.access_token = vk_auth_port_by_bulates1.auth(login, password, app_id, 'wall')
-    # vkapi.wall.post(message="Test from python 3.4")
