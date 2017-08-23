@@ -1,30 +1,28 @@
 """lesson_3_4_homework «API VK, Oauth protocol»
 
 """
-
-import json
 import requests
-from urllib.parse import urlencode
-import urllib.request
-import vk
+
+from less_3_4_hw_VK_access_token import vk_access_token
 
 
 # import vk_auth_port_by_bulates1
 
-def get_token(token_file):
-    with open(token_file) as f:
-        vk_api_access = json.load(f)
-    return vk_api_access['access_token']
+# def get_token(token_file):
+#     with open(token_file) as f:
+#         vk_api_access = json.load(f)
+#     return vk_api_access['access_token']
 
 
 def main():
-    id_file_name_json = 'VK_API_test.json'
-    vk_first_request = ''
-    vk_version = '5.67'
-    outh_url = 'https://oauth.vk.com/authorize'
-
-    with open(id_file_name_json) as f:
-        auth_data = json.load(f)
+    print(vk_access_token)
+    # id_file_name_json = 'VK_API_test.json'
+    # vk_first_request = ''
+    # vk_version = '5.67'
+    # outh_url = 'https://oauth.vk.com/authorize'
+    #
+    # with open(id_file_name_json) as f:
+    #     auth_data = json.load(f)
 
     # vk_first_request = 'https://oauth.vk.com/authorize?client_id=' + auth_data['app_id'] + \
     #                    '&display=page&redirect_uri=' + auth_data['redirect_url'] + \
@@ -32,10 +30,10 @@ def main():
     #                    'response_type=' + auth_data['response_type'] + '&v=' + vk_version
     # print(vk_first_request)
 
-    access_token = get_token('VK_API_access_token.json')
+    # vk_access_token = get_token('VK_API_access_token.json')
     vk_api_url = 'https://api.vk.com/method/'
     params = {
-        "access_token": access_token,
+        "vk_access_token": vk_access_token,
         "client_id": auth_data['app_id'],
         "display": auth_data['display'],
         "scope": 'friends, status, video',
