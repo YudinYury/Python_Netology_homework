@@ -71,7 +71,6 @@ def main():
     # print(friends_lists)
 
     followers_lists = vk_api.users.getFollowers(user_id=329990009, fields='followers_count, last_seen')
-    # print(followers_lists)
     print("Vanya's Followers:")
     followers_count = followers_lists['count']
     for i in range(followers_count):
