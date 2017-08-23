@@ -1,7 +1,10 @@
 """lesson_3_4_homework «API VK, Oauth protocol»
 
 """
+
 # from urllib.parse import urlencode
+from time import sleep
+
 import vk
 
 from less_3_4_hw_VK_access_token import vk_access_token
@@ -69,7 +72,7 @@ def main():
 
     # friends_lists = vk_api.friends.getLists(params=params)
     # print(friends_lists)
-
+    sleep(1)
     followers_lists = vk_api.users.getFollowers(user_id=329990009, fields='followers_count, last_seen')
     print("Vanya's Followers:")
     followers_count = followers_lists['count']
