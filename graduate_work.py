@@ -51,6 +51,7 @@
 
 from time import sleep
 
+# import time
 import vk
 
 from less_3_4_hw_VK_access_token import vk_access_token
@@ -60,6 +61,14 @@ class VkGroup():
     name = ''
     gid = None
     members_count = 0
+
+
+def person_get_groups_set(vk_api, vk_id):
+    groups_list = []
+    sleep(0.400)
+    groups_list = vk_api.groups.get(user_id=vk_id, count=9)
+    groups_list_numbers = groups_list.pop(0)
+    return groups_list_numbers, set(groups_list)
 
 
 def about_vk_group(vk_api, vk_group_id):
@@ -93,43 +102,34 @@ def main():
     tim_leary_first_name = status[0]['first_name']
     tim_leary_last_name = status[0]['last_name']
 
-    # friends_lists = vk_api.friends.getLists(user_id=tim_leary_id, fields='nickname, contacts, status', count=3)
-    # print(friends_lists)
-
     # tim_leary_groups_list = vk_api.groups.get(user_id=tim_leary_id)
-    tim_leary_groups_list = vk_api.groups.get(user_id=tim_leary_id, count=9)
-    tim_leary_groups_numbers = tim_leary_groups_list.pop(0)
+    # tim_leary_groups_list = vk_api.groups.get(user_id=tim_leary_id, count=9)
+    # tim_leary_groups_numbers = tim_leary_groups_list.pop(0)
+    # tim_leary_groups_set = set(tim_leary_groups_list)
+    tim_leary_groups_numbers, tim_leary_groups_set = person_get_groups_set(vk_api, vk_id=tim_leary_id)
     print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, tim_leary_groups_numbers))
-    # print(len(tim_leary_groups_list))
-    print(tim_leary_groups_list)
-    for i, item in enumerate(tim_leary_groups_list):
-        if i % 3 == 0:
-            sleep(1)
-        print('{}) {}'.format(i + 1, item))
-        vk_group_allowed.append(about_vk_group(vk_api, item))
+    print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, len(tim_leary_groups_set)))
+    print(tim_leary_groups_set)
 
+    friends = vk_api.friends.get(user_id=tim_leary_id, count=5)
+    print('Friends list is {} persons:'.format(len(friends)))
+    print(friends)
 
-    # friends = vk_api.friends.get(user_id=tim_leary_id, fields='nickname, contacts')
-        # friends = vk_api.friends.get(user_id=tim_leary_id, fields='nickname, contacts', count=5)
-        # print('Friends list is {} persons:'.format(len(friends)))
-        # frnd_id = 0
-        # for frnd in friends:
-        #     sleep(1)
-        #     print(frnd)
-        #     frnd_id = frnd['uid']
-        #     friend_groups_list = vk_api.groups.get(user_id=frnd_id, count=3)
-        #     print(friend_groups_list)
-        #     print('{} состоит в {} группах:'.format(frnd_id, len(friend_groups_list)))
+    for i, friend_id in enumerate(friends):
+        friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
+        print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
+        print(friend_groups_set)
+        print('tim_leary_groups_set =', tim_leary_groups_set.difference_update(friend_groups_set))
 
 
 
-        # json_data = json.loads(frnd)
+        # json_data = json.loads(friend_id)
         # print(json_data)
 
-        # print(frnd['first_name'], friends['user_id'])
+        # print(friend_id['first_name'], friends['user_id'])
 
-        # print('{} {}'.format(frnd['first_name'], friends['last_name']))
-        # print('{} {} aka "{}" have id: {}'.format(frnd['first_name'], friends['last_name'], friends['nickname'], friends['user_id']))
+        # print('{} {}'.format(friend_id['first_name'], friends['last_name']))
+        # print('{} {} aka "{}" have id: {}'.format(friend_id['first_name'], friends['last_name'], friends['nickname'], friends['user_id']))
 
 
 
