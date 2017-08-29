@@ -66,18 +66,18 @@ class VkGroup():
 def person_get_groups_set(vk_api, vk_id):
     groups_list = []
     sleep(0.400)
-    print('I am calling API')
+    print('.', end=' ')
     try:
         # groups_list = vk_api.groups.get(user_id=vk_id, count=18)
         groups_list = vk_api.groups.get(user_id=vk_id)
     except vk.exceptions.VkAPIError:
-        print('No user found (for id={})'.format(vk_id))
+        # print('No user found (for id={})'.format(vk_id))
         return 0, None
     else:
         try:
             groups_list_numbers = groups_list.pop(0)
         except IndexError:
-            print('User group list is empty (for id={})'.format(vk_id))
+            # print('User group list is empty (for id={})'.format(vk_id))
             return 0, None
         else:
             return groups_list_numbers, set(groups_list)
@@ -121,13 +121,13 @@ def main():
     tim_leary_groups_numbers, tim_leary_groups_set = person_get_groups_set(vk_api, vk_id=tim_leary_id)
     print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, tim_leary_groups_numbers))
     print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, len(tim_leary_groups_set)))
-    print('tim_leary_groups_set =', tim_leary_groups_set)
-    print(len(tim_leary_groups_set))
+    # print('tim_leary_groups_set =', tim_leary_groups_set)
+    # print(len(tim_leary_groups_set))
 
     friends = vk_api.friends.get(user_id=tim_leary_id)
     # friends = vk_api.friends.get(user_id=tim_leary_id, count=15)
-    print('Friends list is {} persons:'.format(len(friends)))
-    print(friends)
+    # print('Friends list is {} persons:'.format(len(friends)))
+    # print(friends)
 
     for i, friend_id in enumerate(friends):
         friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
@@ -136,7 +136,7 @@ def main():
         # print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
         # print(friend_groups_set)
         tim_leary_groups_set.difference_update(friend_groups_set)
-        print(len(tim_leary_groups_set))
+        # print(len(tim_leary_groups_set))
         # print('tim_leary_groups_set =', tim_leary_groups_set)
 
     print('Finally:')
