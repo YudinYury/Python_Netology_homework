@@ -57,17 +57,6 @@ import vk
 from less_3_4_hw_VK_access_token import vk_access_token
 
 
-def about_vk_group(vk_api, vk_group_id):
-    vk_group = {
-        "name": '',
-        "gid": None,
-        "members_count": 0
-    }
-    sleep(0.400)
-    tim_leary_groups_list = vk_api.groups.getMembers(group_id=vk_group_id, count=3)
-    return vk_group
-
-
 def person_get_groups_set(vk_api, vk_id):
     groups_list = []
     sleep(0.400)
