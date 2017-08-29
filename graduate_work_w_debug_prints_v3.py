@@ -71,7 +71,7 @@ def about_vk_group(vk_api, vk_group_id):
 def person_get_groups_set(vk_api, vk_id):
     groups_list = []
     sleep(0.400)
-    print('I am calling API')
+    # print('I am calling API')
     try:
         # groups_list = vk_api.groups.get(user_id=vk_id, count=18)
         groups_list = vk_api.groups.get(user_id=vk_id)
@@ -139,12 +139,12 @@ class VkFriends():
         30 dots - border for clearing "progress bar"
         """
 
-        if self.dot_count == 30:
-            self.dot_count = 0
-            print('.')
-        else:
-            self.dot_count += 1
-            print('.', end='')
+        # if self.dot_count == 30:
+        #     self.dot_count = 0
+        #     print('.')
+        # else:
+        #     self.dot_count += 1
+        #     print('.', end='')
 
     def make_friend_id_list(self):
         """
@@ -159,7 +159,7 @@ class VkFriends():
         params = {
             'user_id': self.root_friend,
             'access_token': vk_access_token,
-            # 'count': 5,
+            'count': 9,
             'v': 5.68
         }
         # response = requests.post(url, data=json.dumps(payload))
@@ -177,24 +177,60 @@ class VkFriends():
         self.friend_id_set = set(self.friend_id_list)
 
     def print_friend_id_list(self):
-        print('self.friend_id_list =', self.friend_id_list)
+        print('self.friend_id_list =', self.friend_id_set)
+
+    def person_get_groups_set(self, vk_id):
+        params = {
+            'user_id': vk_id,
+            'access_token': vk_access_token,
+            'count': 9,
+            'v': 5.68
+        }
+        groups_list = []
+        sleep(0.400)
+        print('friend_id =', vk_id)
+
+        try:
+            response = requests.get('https://api.vk.com/method/groups.get', params=params)
+        except vk.exceptions.VkAPIError:
+            print('No user found (for id={})'.format(vk_id))
+            return 0, None
+        else:
+            response_json = response.json()['response']
+            # print(response_json)
+            groups_list_numbers = response_json['count']
+            print('groups_list_numbers =', groups_list_numbers)
+            groups_list = response_json['items']
+            print('groups_list =', groups_list)
+
+            try:
+                groups_list_numbers = groups_list.pop(0)
+            except IndexError:
+                print('User group list is empty (for id={})'.format(vk_id))
+                return 0, None
+            else:
+                if response.status_code == requests.codes.ok:
+                    self.print_dot()
+                else:
+                    print(response.raise_for_status())
+                return groups_list_numbers, set(groups_list)
 
     def make_different_group_list(self):
         params = {
             'user_id': self.root_friend,
             'access_token': vk_access_token,
-            'count': 5,
+            'count': 15,
             'v': 5.68
         }
         groups_list = []
-        sleep(0.400)
-        response = requests.get('https://api.vk.com/method/groups.get', params=params)
-        if response.status_code == requests.codes.ok:
-            self.print_dot()
-        else:
-            print(response.raise_for_status())
-        response_json = response.json()['response']
-        print(response_json)
+        for friend_id in self.friend_id_set:
+            # print('friend_id =', friend_id)
+            friend_groups_set_num, friend_groups_set = self.person_get_groups_set(vk_id=friend_id)
+            if friend_groups_set_num == 0:
+                continue
+
+                # print('friend_groups_set_num =', friend_groups_set_num)
+                # print('friend_groups_set =', friend_groups_set)
 
         # for i, friend_id in enumerate(friends):
         #     friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
@@ -214,13 +250,10 @@ def main():
         "members_count": 0
     }
     tim_leary = VkFriends(5030613)
-
-    vk_group_list = []
     tim_leary_id = 5030613
-    tim_leary_first_name = ''
-    tim_leary_last_name = ''
 
     tim_leary.make_friend_id_list()
+    # tim_leary.print_friend_id_list()
     tim_leary.make_different_group_list()
 
 
