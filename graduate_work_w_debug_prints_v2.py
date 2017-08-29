@@ -107,7 +107,8 @@ class VkFriends():
     friend_count = 0
     groups_count = 0
     root_friend_first_name = None
-    root_friend__last_name = None
+    root_friend_last_name = None
+    different_group_set = None
     friend_id_list = []
     friend_id_set = None
     vk_group_allowed = []
@@ -143,7 +144,7 @@ class VkFriends():
             print(response.raise_for_status())
         response_json = response.json()['response'][0]
         self.root_friend_first_name = response_json['first_name']
-        self.root_friend__last_name = response_json['last_name']
+        self.root_friend_last_name = response_json['last_name']
         # print(self.root_friend_first_name, self.root_friend__last_name)
 
     def print_dot(self):
@@ -158,7 +159,6 @@ class VkFriends():
         else:
             self.dot_count += 1
             print('.', end='')
-
 
     def make_friend_id_list(self):
         """
@@ -190,9 +190,37 @@ class VkFriends():
         self.friend_id_list = response_json['items']
         self.friend_id_set = set(self.friend_id_list)
 
-
     def print_friend_id_list(self):
         print('self.friend_id_list =', self.friend_id_list)
+
+    def make_different_group_list(self):
+        params = {
+            'user_id': self.root_friend,
+            'access_token': vk_access_token,
+            'count': 5,
+            'v': 5.68
+        }
+        groups_list = []
+        sleep(0.400)
+        response = requests.get('https://api.vk.com/method/groups.get', params=params)
+        if response.status_code == requests.codes.ok:
+            self.print_dot()
+        else:
+            print(response.raise_for_status())
+        response_json = response.json()['response']
+        print(response_json)
+
+        # for i, friend_id in enumerate(friends):
+        #     friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
+        #     if friend_groups_set_num == 0:
+        #         continue
+        #     # print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
+        #     # print(friend_groups_set)
+        #     tim_leary_groups_set.difference_update(friend_groups_set)
+        #     print(len(tim_leary_groups_set))
+        #     # print('tim_leary_groups_set =', tim_leary_groups_set)
+
+
 
 
 def main():
@@ -209,6 +237,8 @@ def main():
     tim_leary_last_name = ''
 
     tim_leary.make_friend_id_list()
+    tim_leary.make_different_group_list()
+
 
     # vk_session = vk.Session(access_token=vk_access_token)
     # vk_api = vk.API(vk_session)
