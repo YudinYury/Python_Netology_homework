@@ -51,6 +51,7 @@
 
 from time import sleep
 
+import lxml.html as html
 import requests
 import vk
 
@@ -88,6 +89,20 @@ def person_get_groups_set(vk_api, vk_id):
             return groups_list_numbers, set(groups_list)
 
 
+def vk_get():
+    params = {
+        'user_id': 5030613,
+        'access_token': vk_access_token,
+        # 'count': 3,
+        'v': 5.68
+    }
+    response_raw = requests.get('https://vk.com/dev/users.get', params=params)
+    print('Body =', response_raw.content)
+    response = response_raw.json()
+    # response = requests.get(url, params=params).json()
+    return ' '.join(response.get('text', []))
+
+
 class VkFriends():
     root_friend = None  # 5030613
     friend_count = 0
@@ -98,7 +113,7 @@ class VkFriends():
     friend_id_set = None
     vk_group_allowed = []
     vk_group_forbidden = []
-    url = ''
+    url = 'https://vk.com/dev/'
     name = ''
     gid = None
     members_count = 0
@@ -126,9 +141,14 @@ class VkFriends():
             print('.')
         else:
             print(response.raise_for_status())
-        print(response['response'])
-
         # print(response.json())
+        print('Content-Type =', response.headers['Content-Type'])
+        response_xml = html.fromstring(response.text)
+        # print(response_xml.xpath('//title/text()'))
+        print(response_xml.xpath('//*'))
+        # print(response_xml.getchildren())
+
+
         # res = json.loads(' '.join(response.get('text', [])))
         # print(res)
 
