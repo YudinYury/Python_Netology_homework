@@ -51,7 +51,6 @@
 
 from time import sleep
 
-import lxml.html as html
 import requests
 import vk
 
@@ -113,14 +112,15 @@ class VkFriends():
     friend_id_set = None
     vk_group_allowed = []
     vk_group_forbidden = []
-    url = 'https://vk.com/dev/'
+    url = 'https://https://api.vk.com/method/'
+    dot_count = 0
     name = ''
     gid = None
     members_count = 0
 
     def __init__(self, vk_id):
         """
-        https://vk.com/dev/users.get?
+        https://https://api.vk.com/method/users.get?
         user_id=<user_id>
          & access_token=<VK-token>
          & v=<версия интерфейса>
@@ -129,38 +129,35 @@ class VkFriends():
         """
         self.root_friend = vk_id
         params = {
-            'user_id': self.root_friend,
+            'user_ids': self.root_friend,
             'access_token': vk_access_token,
             # 'count': 3,
             'v': 5.68
         }
-        # https://vk.com/dev/users.get?params[user_id]=5030613&params[count]=3&params[v]=5.68
-        response = requests.get('https://vk.com/dev/users.get', params=params)
+        # https://api.vk.com/method/users.get?user_ids=5030613&fields=bdate&access_token=vk_access_token&v=5.68
+        response = requests.get('https://api.vk.com/method/users.get', params=params)
         # print(response.status_code)
         if response.status_code == requests.codes.ok:
-            print('.')
+            self.print_dot()
         else:
             print(response.raise_for_status())
-        # print(response.json())
-        print('Content-Type =', response.headers['Content-Type'])
-        response_xml = html.fromstring(response.text)
-        # print(response_xml.xpath('//title/text()'))
-        print(response_xml.xpath('//*'))
-        # print(response_xml.getchildren())
+        response_json = response.json()['response'][0]
+        self.root_friend_first_name = response_json['first_name']
+        self.root_friend__last_name = response_json['last_name']
+        # print(self.root_friend_first_name, self.root_friend__last_name)
 
+    def print_dot(self):
+        if self.dot_count == 30:
+            self.dot_count = 0
+            print('.')
+        else:
+            self.dot_count += 1
+            print('.', end='')
 
-        # res = json.loads(' '.join(response.get('text', [])))
-        # print(res)
-
-        # print(response.raise_for_status())
-        # response_json = response.json()
-
-        # print(response.content)
-        # print(response.json())
 
     def make_friend_id_list(self):
         """
-        https://vk.com/dev/friends.get?
+        https://api.vk.com/method/users.get?
         user_id=<user_id> User, for which a list of friends is created
          & access_token=<VK-token>
          & v=<версия интерфейса VK>
@@ -171,20 +168,26 @@ class VkFriends():
         params = {
             'user_id': self.root_friend,
             'access_token': vk_access_token,
-            'count': 3,
+            # 'count': 5,
             'v': 5.68
         }
         # response = requests.post(url, data=json.dumps(payload))
-        # https: // vk.com / dev / friends.get?params[user_id] = 5030613 & params[count] = 3 & params[v] = 5.68
+        # https://api.vk.com/method/friends.get?params[user_id] = 5030613 & params[count] = 3 & params[v] = 5.68
         sleep(0.400)
-        response = requests.get('https://vk.com/dev/friends.get', params=params)
+        response = requests.get('https://api.vk.com/method/friends.get', params=params)
         if response.status_code == requests.codes.ok:
-            print('.')
+            self.print_dot()
         else:
             print(response.raise_for_status())
+        response_json = response.json()['response']
+        self.friend_count = response_json['count']
+        # print('self.friend_count =', self.friend_count)
+        self.friend_id_list = response_json['items']
+        self.friend_id_set = set(self.friend_id_list)
+
 
     def print_friend_id_list(self):
-        print('')
+        print('self.friend_id_list =', self.friend_id_list)
 
 
 def main():
@@ -200,6 +203,7 @@ def main():
     tim_leary_first_name = ''
     tim_leary_last_name = ''
 
+    tim_leary.make_friend_id_list()
 
     # vk_session = vk.Session(access_token=vk_access_token)
     # vk_api = vk.API(vk_session)
