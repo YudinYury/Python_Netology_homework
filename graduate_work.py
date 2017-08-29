@@ -66,9 +66,15 @@ class VkGroup():
 def person_get_groups_set(vk_api, vk_id):
     groups_list = []
     sleep(0.400)
-    groups_list = vk_api.groups.get(user_id=vk_id, count=9)
-    groups_list_numbers = groups_list.pop(0)
-    return groups_list_numbers, set(groups_list)
+    print('I am calling API')
+    try:
+        groups_list = vk_api.groups.get(user_id=vk_id, count=18)
+    except vk.exceptions.VkAPIError:
+        print('No user found')
+        return 0, None
+    else:
+        groups_list_numbers = groups_list.pop(0)
+        return groups_list_numbers, set(groups_list)
 
 
 def about_vk_group(vk_api, vk_group_id):
@@ -77,8 +83,8 @@ def about_vk_group(vk_api, vk_group_id):
         "gid": None,
         "members_count": 0
     }
+    sleep(0.400)
     tim_leary_groups_list = vk_api.groups.getMembers(group_id=vk_group_id, count=3)
-
     return vk_group
 
 
@@ -109,29 +115,25 @@ def main():
     tim_leary_groups_numbers, tim_leary_groups_set = person_get_groups_set(vk_api, vk_id=tim_leary_id)
     print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, tim_leary_groups_numbers))
     print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, len(tim_leary_groups_set)))
-    print(tim_leary_groups_set)
+    print('tim_leary_groups_set =', tim_leary_groups_set)
+    print(len(tim_leary_groups_set))
 
-    friends = vk_api.friends.get(user_id=tim_leary_id, count=5)
+    friends = vk_api.friends.get(user_id=tim_leary_id, count=15)
     print('Friends list is {} persons:'.format(len(friends)))
     print(friends)
 
     for i, friend_id in enumerate(friends):
         friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
-        print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
-        print(friend_groups_set)
-        print('tim_leary_groups_set =', tim_leary_groups_set.difference_update(friend_groups_set))
+        if friend_groups_set_num == 0:
+            continue
+        # print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
+        # print(friend_groups_set)
+        tim_leary_groups_set.difference_update(friend_groups_set)
+        print(len(tim_leary_groups_set))
+        # print('tim_leary_groups_set =', tim_leary_groups_set)
 
-
-
-        # json_data = json.loads(friend_id)
-        # print(json_data)
-
-        # print(friend_id['first_name'], friends['user_id'])
-
-        # print('{} {}'.format(friend_id['first_name'], friends['last_name']))
-        # print('{} {} aka "{}" have id: {}'.format(friend_id['first_name'], friends['last_name'], friends['nickname'], friends['user_id']))
-
-
+    print('tim_leary_groups_set =', tim_leary_groups_set)
+    print(len(tim_leary_groups_set))
 
 if __name__ == '__main__':
     main()
