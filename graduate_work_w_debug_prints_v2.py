@@ -147,6 +147,11 @@ class VkFriends():
         # print(self.root_friend_first_name, self.root_friend__last_name)
 
     def print_dot(self):
+        """
+        print "progress bar" from a lot of dot
+        30 dots - border for clearing "progress bar"
+        """
+
         if self.dot_count == 30:
             self.dot_count = 0
             print('.')
