@@ -68,13 +68,19 @@ def person_get_groups_set(vk_api, vk_id):
     sleep(0.400)
     print('I am calling API')
     try:
-        groups_list = vk_api.groups.get(user_id=vk_id, count=18)
+        # groups_list = vk_api.groups.get(user_id=vk_id, count=18)
+        groups_list = vk_api.groups.get(user_id=vk_id)
     except vk.exceptions.VkAPIError:
-        print('No user found')
+        print('No user found (for id={})'.format(vk_id))
         return 0, None
     else:
-        groups_list_numbers = groups_list.pop(0)
-        return groups_list_numbers, set(groups_list)
+        try:
+            groups_list_numbers = groups_list.pop(0)
+        except IndexError:
+            print('User group list is empty (for id={})'.format(vk_id))
+            return 0, None
+        else:
+            return groups_list_numbers, set(groups_list)
 
 
 def about_vk_group(vk_api, vk_group_id):
@@ -118,7 +124,8 @@ def main():
     print('tim_leary_groups_set =', tim_leary_groups_set)
     print(len(tim_leary_groups_set))
 
-    friends = vk_api.friends.get(user_id=tim_leary_id, count=15)
+    friends = vk_api.friends.get(user_id=tim_leary_id)
+    # friends = vk_api.friends.get(user_id=tim_leary_id, count=15)
     print('Friends list is {} persons:'.format(len(friends)))
     print(friends)
 
@@ -132,6 +139,7 @@ def main():
         print(len(tim_leary_groups_set))
         # print('tim_leary_groups_set =', tim_leary_groups_set)
 
+    print('Finally:')
     print('tim_leary_groups_set =', tim_leary_groups_set)
     print(len(tim_leary_groups_set))
 
