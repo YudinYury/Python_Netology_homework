@@ -234,25 +234,6 @@ class VkFriends():
         vk_group['members_count'] = response['response']['count']
         return vk_group
 
-    # def get_group_info(self, group_id):
-    #     vk_group = {
-    #         "name": '',
-    #         "gid": None,
-    #         "members_count": 0
-    #     }
-    #     params = {
-    #         'group_id': group_id,
-    #         'access_token': vk_access_token,
-    #         'extended': 1,
-    #         'v': 5.68
-    #     }
-    #     vk_group['gid'] = group_id
-    #     vk_group['members_count'] = self.get_group_members_count(group_id)
-    #     sleep(0.400)
-    #     response = requests.get('https://api.vk.com/method/groups.get', params=params).json()['response']
-    #     # print(response)
-    #     return vk_group
-
     def make_report_to_file(self):
         vk_group = {
             "name": '',
