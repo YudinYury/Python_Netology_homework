@@ -49,12 +49,16 @@
 
 """
 
+import logging
 from time import sleep
 
 import requests
 
 from less_3_4_hw_VK_access_token import vk_access_token
 
+# logging.basicConfig(format = u'[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s', level = logging.DEBUG)
+logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s', level=logging.DEBUG,
+                    filename=u'graduate_work.log')
 
 class VkFriends():
     root_friend_id = None  # 5030613
@@ -109,12 +113,12 @@ class VkFriends():
         30 dots - border for clearing "progress bar"
         """
 
-        if self.dot_count == 30:
-            self.dot_count = 0
-            print('.')
-        else:
-            self.dot_count += 1
-            print('.', end='')
+        # if self.dot_count == 30:
+        #     self.dot_count = 0
+        #     print('.')
+        # else:
+        #     self.dot_count += 1
+        #     print('.', end='')
 
     def make_friend_id_list(self):
         """
@@ -129,7 +133,7 @@ class VkFriends():
         params = {
             'user_id': self.root_friend_id,
             'access_token': vk_access_token,
-            'count': 117,
+            # 'count': 117,
             'v': 5.68
         }
         # response = requests.post(url, data=json.dumps(payload))
@@ -152,7 +156,7 @@ class VkFriends():
         print('--------- info about root friend ---------')
         print('Name: {} {}'.format(self.root_friend_first_name, self.root_friend_last_name))
         print('friend_count = {}'.format(self.friend_count))
-        print('self.friend_id_list =', self.friend_id_set)
+        # print('self.friend_id_list =', self.friend_id_set)
         print('groups_count = {}'.format(self.groups_count))
 
     def root_friend_make_groups_set(self):
@@ -168,7 +172,6 @@ class VkFriends():
         }
         groups_list = []
         sleep(0.400)
-        print(' ')
         # print('--------- person_get_groups_set metod ---------')
         # print('friend_id =', vk_id)
         # try:
@@ -183,8 +186,12 @@ class VkFriends():
         except KeyError:
             print(' ')
             # print('--------- Attention ! KeyError "response" ---------')
-            print('vk_id: {}, error code: {}, error_msg: {}'.format(vk_id, response.json()['error']['error_code'],
-                                                                    response.json()['error']['error_msg']))
+            logging.debug(
+                u'vk_id: {}, error code: {}, error_msg: {}'.format(vk_id, response.json()['error']['error_code'],
+                                                                   response.json()['error']['error_msg']))
+
+            # print('vk_id: {}, error code: {}, error_msg: {}'.format(vk_id, response.json()['error']['error_code'],
+            #                                                         response.json()['error']['error_msg']))
             return 0, None
         else:
             # print(response_json)
@@ -195,18 +202,22 @@ class VkFriends():
             return groups_list_numbers, set(groups_list)
 
     def make_different_group_list(self):
+        counter = 0
         for friend_id in self.friend_id_set:
+            if counter % 10 == 0:
+                print('{} from {}'.format(counter, self.friend_count))
             # print('friend_id =', friend_id)
             friend_groups_set_num, friend_groups_set = self.person_get_groups_set(vk_id=friend_id)
             if friend_groups_set_num == 0:
                 continue
-            # print('friend_groups_set_num =', friend_groups_set_num)
-            # print('friend_groups_set =', friend_groups_set)
             self.root_friend_groups_set.difference_update(friend_groups_set)
+            counter += 1
             # print('root_friend_groups_set ='.format(self.root_friend_groups_set))
         self.different_group_set = self.root_friend_groups_set
         print('')
         print('Numbers of "tim_leary" exclusive groups: {}'.format(len(self.different_group_set)))
+        print('different_group_set = {}'.format(self.root_friend_groups_set))
+
 
 
 def main():
