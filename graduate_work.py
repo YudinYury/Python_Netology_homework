@@ -133,8 +133,10 @@ def main():
         friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
         if friend_groups_set_num == 0:
             continue
-        # print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
-        # print(friend_groups_set)
+        if friend_id == 295473:
+            print('Attention !!')
+            print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
+            print(friend_groups_set)
         tim_leary_groups_set.difference_update(friend_groups_set)
         # print(len(tim_leary_groups_set))
         # print('tim_leary_groups_set =', tim_leary_groups_set)
