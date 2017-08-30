@@ -52,55 +52,24 @@
 from time import sleep
 
 import requests
-import vk
 
 from less_3_4_hw_VK_access_token import vk_access_token
 
 
-def about_vk_group(vk_api, vk_group_id):
-    vk_group = {
-        "name": '',
-        "gid": None,
-        "members_count": 0
-    }
-    sleep(0.400)
-    tim_leary_groups_list = vk_api.groups.getMembers(group_id=vk_group_id, count=3)
-    return vk_group
-
-
-def person_get_groups_set(vk_api, vk_id):
-    groups_list = []
-    sleep(0.400)
-    # print('I am calling API')
-    try:
-        # groups_list = vk_api.groups.get(user_id=vk_id, count=18)
-        groups_list = vk_api.groups.get(user_id=vk_id)
-    except vk.exceptions.VkAPIError:
-        print('No user found (for id={})'.format(vk_id))
-        return 0, None
-    else:
-        try:
-            groups_list_numbers = groups_list.pop(0)
-        except IndexError:
-            print('User group list is empty (for id={})'.format(vk_id))
-            return 0, None
-        else:
-            return groups_list_numbers, set(groups_list)
-
-
 class VkFriends():
-    root_friend = None  # 5030613
-    friend_count = 0
-    groups_count = 0
+    root_friend_id = None  # 5030613
     root_friend_first_name = None
     root_friend_last_name = None
-    different_group_set = None
+    friend_count = 0
     friend_id_list = []
     friend_id_set = None
+    groups_count = 0
+    root_friend_groups_set = None
+    different_group_set = None
     vk_group_allowed = []
     vk_group_forbidden = []
     url = 'https://https://api.vk.com/method/'
-    dot_count = 0
+    dot_count = 0  # counter for "progress line"
     name = ''
     gid = None
     members_count = 0
@@ -114,9 +83,9 @@ class VkFriends():
         :param vk_id: <int> or <str> user_id.
         :return: <json> info about user (user_id).
         """
-        self.root_friend = vk_id
+        self.root_friend_id = vk_id
         params = {
-            'user_ids': self.root_friend,
+            'user_ids': self.root_friend_id,
             'access_token': vk_access_token,
             # 'count': 3,
             'v': 5.68
@@ -131,7 +100,8 @@ class VkFriends():
         response_json = response.json()['response'][0]
         self.root_friend_first_name = response_json['first_name']
         self.root_friend_last_name = response_json['last_name']
-        # print(self.root_friend_first_name, self.root_friend__last_name)
+        print('User {} is founded.'.format(self.root_friend_id))
+        # print('His name is "{} {}".'.format(self.root_friend_first_name, self.root_friend_last_name))
 
     def print_dot(self):
         """
@@ -139,12 +109,12 @@ class VkFriends():
         30 dots - border for clearing "progress bar"
         """
 
-        # if self.dot_count == 30:
-        #     self.dot_count = 0
-        #     print('.')
-        # else:
-        #     self.dot_count += 1
-        #     print('.', end='')
+        if self.dot_count == 30:
+            self.dot_count = 0
+            print('.')
+        else:
+            self.dot_count += 1
+            print('.', end='')
 
     def make_friend_id_list(self):
         """
@@ -157,9 +127,9 @@ class VkFriends():
         :return: <int> friend_count and <list> friend_id_list
         """
         params = {
-            'user_id': self.root_friend,
+            'user_id': self.root_friend_id,
             'access_token': vk_access_token,
-            'count': 9,
+            'count': 117,
             'v': 5.68
         }
         # response = requests.post(url, data=json.dumps(payload))
@@ -175,72 +145,68 @@ class VkFriends():
         # print('self.friend_count =', self.friend_count)
         self.friend_id_list = response_json['items']
         self.friend_id_set = set(self.friend_id_list)
+        print(
+            '{} {} have {} friends.'.format(self.root_friend_first_name, self.root_friend_last_name, self.friend_count))
 
-    def print_friend_id_list(self):
+    def print_root_user_info(self):
+        print('--------- info about root friend ---------')
+        print('Name: {} {}'.format(self.root_friend_first_name, self.root_friend_last_name))
+        print('friend_count = {}'.format(self.friend_count))
         print('self.friend_id_list =', self.friend_id_set)
+        print('groups_count = {}'.format(self.groups_count))
+
+    def root_friend_make_groups_set(self):
+        self.groups_count, self.root_friend_groups_set = self.person_get_groups_set(self.root_friend_id)
+        # print('self.groups_count = {}, '.format(self.groups_count))
 
     def person_get_groups_set(self, vk_id):
         params = {
             'user_id': vk_id,
             'access_token': vk_access_token,
-            'count': 9,
+            # 'count': 15,
             'v': 5.68
         }
         groups_list = []
         sleep(0.400)
-        print('friend_id =', vk_id)
-
+        print(' ')
+        # print('--------- person_get_groups_set metod ---------')
+        # print('friend_id =', vk_id)
+        # try:
+        self.print_dot()
+        response = requests.get('https://api.vk.com/method/groups.get', params=params)
+        # print(response.json())
+        # except vk.exceptions.VkAPIError:
+        #     print('No user found (for id={})'.format(vk_id))
+        #     return 0, None
         try:
-            response = requests.get('https://api.vk.com/method/groups.get', params=params)
-        except vk.exceptions.VkAPIError:
-            print('No user found (for id={})'.format(vk_id))
+            response_json = response.json()['response']
+        except KeyError:
+            print(' ')
+            # print('--------- Attention ! KeyError "response" ---------')
+            print('vk_id: {}, error code: {}, error_msg: {}'.format(vk_id, response.json()['error']['error_code'],
+                                                                    response.json()['error']['error_msg']))
             return 0, None
         else:
-            response_json = response.json()['response']
             # print(response_json)
             groups_list_numbers = response_json['count']
-            print('groups_list_numbers =', groups_list_numbers)
             groups_list = response_json['items']
-            print('groups_list =', groups_list)
-
-            try:
-                groups_list_numbers = groups_list.pop(0)
-            except IndexError:
-                print('User group list is empty (for id={})'.format(vk_id))
-                return 0, None
-            else:
-                if response.status_code == requests.codes.ok:
-                    self.print_dot()
-                else:
-                    print(response.raise_for_status())
-                return groups_list_numbers, set(groups_list)
+            # print('groups_list_numbers =', groups_list_numbers)
+            # print('groups_list =', groups_list)
+            return groups_list_numbers, set(groups_list)
 
     def make_different_group_list(self):
-        params = {
-            'user_id': self.root_friend,
-            'access_token': vk_access_token,
-            'count': 15,
-            'v': 5.68
-        }
-        groups_list = []
         for friend_id in self.friend_id_set:
             # print('friend_id =', friend_id)
             friend_groups_set_num, friend_groups_set = self.person_get_groups_set(vk_id=friend_id)
             if friend_groups_set_num == 0:
                 continue
-
-                # print('friend_groups_set_num =', friend_groups_set_num)
-                # print('friend_groups_set =', friend_groups_set)
-
-        # for i, friend_id in enumerate(friends):
-        #     friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
-        #     if friend_groups_set_num == 0:
-        #         continue
-        #     # print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
-        #     # print(friend_groups_set)
-        #     tim_leary_groups_set.difference_update(friend_groups_set)
-        #     print(len(tim_leary_groups_set))
-        #     # print('tim_leary_groups_set =', tim_leary_groups_set)
+            # print('friend_groups_set_num =', friend_groups_set_num)
+            # print('friend_groups_set =', friend_groups_set)
+            self.root_friend_groups_set.difference_update(friend_groups_set)
+            # print('root_friend_groups_set ='.format(self.root_friend_groups_set))
+        self.different_group_set = self.root_friend_groups_set
+        print('')
+        print('Numbers of "tim_leary" exclusive groups: {}'.format(len(self.different_group_set)))
 
 
 def main():
@@ -253,41 +219,11 @@ def main():
     tim_leary_id = 5030613
 
     tim_leary.make_friend_id_list()
-    # tim_leary.print_friend_id_list()
+    tim_leary.root_friend_make_groups_set()
+    tim_leary.print_root_user_info()
+
     tim_leary.make_different_group_list()
 
-
-    # vk_session = vk.Session(access_token=vk_access_token)
-    # vk_api = vk.API(vk_session)
-    #
-    # status = vk_api.users.get(user_id=tim_leary_id, fields='followers_count, is_friend, friend_status')
-    # tim_leary_first_name = status[0]['first_name']
-    # tim_leary_last_name = status[0]['last_name']
-    #
-    # tim_leary_groups_numbers, tim_leary_groups_set = person_get_groups_set(vk_api, vk_id=tim_leary_id)
-    # print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, tim_leary_groups_numbers))
-    # print('{} {} состоит в {} группах:'.format(tim_leary_first_name, tim_leary_last_name, len(tim_leary_groups_set)))
-    # print('tim_leary_groups_set =', tim_leary_groups_set)
-    # print(len(tim_leary_groups_set))
-    #
-    # friends = vk_api.friends.get(user_id=tim_leary_id)
-    # # friends = vk_api.friends.get(user_id=tim_leary_id, count=15)
-    # print('Friends list is {} persons:'.format(len(friends)))
-    # print(friends)
-    #
-    # for i, friend_id in enumerate(friends):
-    #     friend_groups_set_num, friend_groups_set = person_get_groups_set(vk_api, vk_id=friend_id)
-    #     if friend_groups_set_num == 0:
-    #         continue
-    #     # print('{} состоит в {} группах:'.format(friend_id, friend_groups_set_num))
-    #     # print(friend_groups_set)
-    #     tim_leary_groups_set.difference_update(friend_groups_set)
-    #     print(len(tim_leary_groups_set))
-    #     # print('tim_leary_groups_set =', tim_leary_groups_set)
-    #
-    # print('Finally:')
-    # print('tim_leary_groups_set =', tim_leary_groups_set)
-    # print(len(tim_leary_groups_set))
 
 
 if __name__ == '__main__':
