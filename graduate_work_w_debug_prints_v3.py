@@ -49,6 +49,7 @@
 
 """
 
+import json
 import logging
 from time import sleep
 
@@ -70,8 +71,8 @@ class VkFriends():
     groups_count = 0
     root_friend_groups_set = None
     different_group_set = None
-    vk_group_allowed = []
-    vk_group_forbidden = []
+    vk_group_result_list = []
+    # vk_group_forbidden = []
     url = 'https://https://api.vk.com/method/'
     dot_count = 0  # counter for "progress line"
     name = ''
@@ -133,11 +134,9 @@ class VkFriends():
         params = {
             'user_id': self.root_friend_id,
             'access_token': vk_access_token,
-            # 'count': 117,
+            'count': 17,
             'v': 5.68
         }
-        # response = requests.post(url, data=json.dumps(payload))
-        # https://api.vk.com/method/friends.get?params[user_id] = 5030613 & params[count] = 3 & params[v] = 5.68
         sleep(0.400)
         response = requests.get('https://api.vk.com/method/friends.get', params=params)
         if response.status_code == requests.codes.ok:
@@ -205,36 +204,104 @@ class VkFriends():
         counter = 0
         for friend_id in self.friend_id_set:
             if counter % 10 == 0:
-                print('{} from {}'.format(counter, self.friend_count))
-            # print('friend_id =', friend_id)
+                print('Find exclusive groups: {} from {}'.format(counter, len(self.friend_id_set)))
             friend_groups_set_num, friend_groups_set = self.person_get_groups_set(vk_id=friend_id)
+            counter += 1
             if friend_groups_set_num == 0:
                 continue
             self.root_friend_groups_set.difference_update(friend_groups_set)
-            counter += 1
-            # print('root_friend_groups_set ='.format(self.root_friend_groups_set))
-        self.different_group_set = self.root_friend_groups_set
-        print('')
-        print('Numbers of "tim_leary" exclusive groups: {}'.format(len(self.different_group_set)))
-        print('different_group_set = {}'.format(self.root_friend_groups_set))
 
+        print('Find exclusive groups completed: {} from {}'.format(counter, len(self.friend_id_set)))
+        self.different_group_set = self.root_friend_groups_set
+        print('Numbers of "tim_leary" exclusive groups: {}'.format(len(self.different_group_set)))
+        logging.debug(u'Numbers of "tim_leary" exclusive groups: {}'.format(len(self.different_group_set)))
+        logging.debug(u'different_group_set = {}'.format(self.root_friend_groups_set))
+
+    def get_group_members_count(self, vk_group):
+        # vk_group = {
+        #     "name": '',
+        #     "gid": None,
+        #     "members_count": 0
+        # }
+        params = {
+            'group_id': vk_group['gid'],
+            'access_token': vk_access_token,
+            'extended': 1,
+            'v': 5.68
+        }
+        sleep(0.400)
+        response = requests.get('https://api.vk.com/method/groups.getMembers', params=params).json()
+        vk_group['members_count'] = response['response']['count']
+        return vk_group
+
+    # def get_group_info(self, group_id):
+    #     vk_group = {
+    #         "name": '',
+    #         "gid": None,
+    #         "members_count": 0
+    #     }
+    #     params = {
+    #         'group_id': group_id,
+    #         'access_token': vk_access_token,
+    #         'extended': 1,
+    #         'v': 5.68
+    #     }
+    #     vk_group['gid'] = group_id
+    #     vk_group['members_count'] = self.get_group_members_count(group_id)
+    #     sleep(0.400)
+    #     response = requests.get('https://api.vk.com/method/groups.get', params=params).json()['response']
+    #     # print(response)
+    #     return vk_group
+
+    def make_report_to_file(self):
+        vk_group = {
+            "name": '',
+            "gid": None,
+            "members_count": 0
+        }
+        params = {
+            'user_id': self.root_friend_id,
+            'access_token': vk_access_token,
+            'extended': 1,
+            'v': 5.68
+        }
+        print('Making a report.')
+        response = requests.get('https://api.vk.com/method/groups.get', params=params).json()
+        # self.vk_group_result_list.append(self.get_group_info(group))
+        # print(response['response'])
+        group_count = response['response']['count']
+        # print('group_count =', group_count)
+        group_list = response['response']['items']
+
+        for group in group_list:
+            if group['id'] in self.different_group_set:
+                vk_group['gid'] = group['id']
+                vk_group['name'] = group['name']
+                vk_group = self.get_group_members_count(vk_group)
+                self.vk_group_result_list.append(vk_group)
+                print(vk_group)
+            else:
+                continue
+
+        print(self.vk_group_result_list)
+
+        print('Saving report to file.')
+        with open('groups.json', 'w') as f:  # , encoding='utf-8'
+            json.dump(self.vk_group_result_list, f, ensure_ascii=False)
+        with open('groups.json.txt', 'w') as f:  # , encoding='utf-8'
+            json.dump(self.vk_group_result_list, f, ensure_ascii=False)
 
 
 def main():
-    vk_group = {
-        "name": '',
-        "gid": None,
-        "members_count": 0
-    }
-    tim_leary = VkFriends(5030613)
     tim_leary_id = 5030613
+    tim_leary = VkFriends(5030613)
 
     tim_leary.make_friend_id_list()
     tim_leary.root_friend_make_groups_set()
-    tim_leary.print_root_user_info()
-
     tim_leary.make_different_group_list()
 
+    # tim_leary.print_root_user_info()
+    tim_leary.make_report_to_file()
 
 
 if __name__ == '__main__':
