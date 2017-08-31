@@ -138,7 +138,6 @@ class VkFriends():
             # 'count': 17,
             'v': 5.68
         }
-        sleep(0.400)
         response = requests.get('https://api.vk.com/method/friends.get', params=params)
         if response.status_code == requests.codes.ok:
             self.print_dot()
@@ -149,8 +148,8 @@ class VkFriends():
         # print('self.friend_count =', self.friend_count)
         self.friend_id_list = response_json['items']
         self.friend_id_set = set(self.friend_id_list)
-        print(
-            '{} {} have {} friends.'.format(self.root_friend_first_name, self.root_friend_last_name, self.friend_count))
+        # print(
+        #     '{} {} have {} friends.'.format(self.root_friend_first_name, self.root_friend_last_name, self.friend_count))
 
     def print_root_user_info(self):
         print('--------- info about root friend ---------')
@@ -172,17 +171,14 @@ class VkFriends():
         }
         groups_list = []
         sleep(0.400)
-        self.print_dot()
+        # self.print_dot()
         response = requests.get('https://api.vk.com/method/groups.get', params=params)
         try:
             response_json = response.json()['response']
         except KeyError:
-            print(' ')
-            # print('--------- Attention ! KeyError "response" ---------')
             logging.debug(
                 u'vk_id: {}, error code: {}, error_msg: {}'.format(vk_id, response.json()['error']['error_code'],
                                                                    response.json()['error']['error_msg']))
-
             # print('vk_id: {}, error code: {}, error_msg: {}'.format(vk_id, response.json()['error']['error_code'],
             #                                                         response.json()['error']['error_msg']))
             return 0, None
@@ -226,11 +222,6 @@ class VkFriends():
         return vk_group
 
     def make_report_to_file(self):
-        vk_group = {
-            "name": '',
-            "gid": None,
-            "members_count": 0
-        }
         params = {
             'user_id': self.root_friend_id,
             'access_token': vk_access_token,
@@ -243,11 +234,17 @@ class VkFriends():
         group_list = response['response']['items']
 
         for group in group_list:
+            vk_group = {
+                "name": '',
+                "gid": None,
+                "members_count": 0
+            }
+
             if group['id'] in self.different_group_set:
                 vk_group['gid'] = group['id']
                 vk_group['name'] = group['name']
-                vk_group = self.get_group_members_count(vk_group)
-                self.vk_group_result_list.append(vk_group)
+                new_group = self.get_group_members_count(vk_group)
+                self.vk_group_result_list.append(new_group)
                 # print(vk_group)
             else:
                 continue
@@ -256,9 +253,20 @@ class VkFriends():
         print('Saving report to file.')
         with open('groups.json', 'w') as f:  # , encoding='utf-8'
             json.dump(self.vk_group_result_list, f, ensure_ascii=False)
-        with open('groups.json.txt', 'w') as f:  # , encoding='utf-8'
+        with open('groups.json.txt', 'w') as f:
             json.dump(self.vk_group_result_list, f, ensure_ascii=False)
+        with open('groups.json.asci.txt', 'w') as f:
+            json.dump(self.vk_group_result_list, f)
         print('Have done.')
+
+    def do_vk_friends_get_request(self, params):
+        return self.do_vk_request(self, 'groups.get', params)
+
+    def do_vk_request(self, method, params):
+        url = 'https://api.vk.com/method/'
+        sleep(0.400)
+        response = requests.get('https://api.vk.com/method/groups.get', params=params)
+        return response.json()
 
 
 def main():
