@@ -135,7 +135,7 @@ class VkFriends():
         params = {
             'user_id': self.root_friend_id,
             'access_token': vk_access_token,
-            # 'count': 17,
+            # 'count': 117,
             'v': 5.68
         }
         response = requests.get('https://api.vk.com/method/friends.get', params=params)
@@ -182,6 +182,8 @@ class VkFriends():
             # print('vk_id: {}, error code: {}, error_msg: {}'.format(vk_id, response.json()['error']['error_code'],
             #                                                         response.json()['error']['error_msg']))
             return 0, None
+        except ConnectionResetError:
+
         else:
             groups_list_numbers = response_json['count']
             groups_list = response_json['items']
@@ -259,14 +261,16 @@ class VkFriends():
             json.dump(self.vk_group_result_list, f)
         print('Have done.')
 
-    def do_vk_friends_get_request(self, params):
+    def do_vk_groups_get_request(self, params):
         return self.do_vk_request(self, 'groups.get', params)
+
+    def do_vk_friends_get_request(self, params):
+        return self.do_vk_request(self, 'friends.get', params)
 
     def do_vk_request(self, method, params):
         url = 'https://api.vk.com/method/'
         sleep(0.400)
-        response = requests.get('https://api.vk.com/method/groups.get', params=params)
-        return response.json()
+        return requests.get(url + method, params=params)
 
 
 def main():
